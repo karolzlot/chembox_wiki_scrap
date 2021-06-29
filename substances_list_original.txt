@@ -1,0 +1,594 @@
+1,1-difluoroethane, HFC-152a
+1,1-dimethylcyclopentane
+1-butanol
+1-pentanol
+1-propanol
+2,3-dimethylbutan
+2,4-di-tert-butylphenol
+2,4-dichlorophenol
+2,4-dichlorotoluene
+2,4-dinitrotoluene
+2,5-dimethylhexane-2,5-dihydroperoxide
+2,6-di-tert-butylphenol
+2-butanol
+2-cyclopentone
+2-methyl-1-butanol
+2-methyl-2-butanol
+2-methylpentane
+2-nitroaniline
+2-pyridinol
+3-methyl-1-butanol
+3-methyl-1-butyl acetate
+3-methylpyridine
+4-methyl-2-pentanone
+4-tert-butylbenzaldehyde
+4-tert-butyltoluene
+DTPA, diethylenetriaminepentaacetic acid
+EDTA, ethylenediaminetetraacetic acid
+N,N-dimethylformamide
+N-methyl-2-pyrrolidone
+[sulfonyl]urea-compound
+[thio]carbamate-compound
+acetaldehyde
+acetamide-anillide-compound, unspecified
+acetanilide
+acetic acid, without water, in 98% solution state
+acetic anhydride
+acetoacetic acid
+acetone, liquid
+acetonitrile
+acetyl chloride
+acetylene
+aclonifen
+acrolein
+acrylic acid
+acrylonitrile
+activated bentonite
+activated carbon, granular
+activated silica
+adhesive, for metal
+adipic acid
+alkylketene dimer sizing agent, for paper production
+allyl chloride
+alpha-naphthol
+alpha-picoline
+aluminium chloride
+aluminium fluoride
+aluminium hydroxide
+aluminium sulfate, powder
+aluminium sulfate, without water, in 4.33% aluminium solution state
+aminopyridine
+ammonia, anhydrous, liquid
+ammonium bicarbonate
+ammonium carbonate
+ammonium chloride
+ammonium nitrate
+ammonium nitrate phosphate
+ammonium nitrite
+ammonium sulfate
+ammonium thiocyanate
+aniline
+anthranilic acid
+anthraquinone
+argon, crude, liquid
+argon, liquid
+arsine
+ascorbic acid
+atrazine
+azodicarbonamide
+barium carbonate
+barium hydroxide
+barium oxide
+barium sulfide
+benzal chloride
+benzaldehyde
+benzaldehyde-2-sulfonic acid
+benzimidazole-compound
+benzo[thia]diazole-compound
+benzoic acid
+benzoic-compound
+benzyl alcohol
+benzyl chloride
+bipyridylium-compound
+bisphenol A, powder
+blasting
+borax, anhydrous, powder
+boric acid, anhydrous, powder
+boric oxide
+boron carbide
+boron trifluoride
+brazing solder, cadmium free
+bromine
+bromopropane
+butane
+butane-1,4-diol
+butyl acetate
+butyl acrylate
+butyldiglycol acetate
+butyrolactone
+cadmium chloride, semiconductor-grade
+cadmium sulfide, semiconductor-grade
+cadmium telluride, semiconductor-grade
+cadmium, semiconductor-grade
+calcium ammonium nitrate
+calcium borates
+calcium carbide, technical grade
+calcium carbonate, precipitated
+calcium chloride
+calcium nitrate
+captan
+carbon black
+carbon dioxide, liquid
+carbon disulfide
+carbon monoxide
+carbon tetrachloride
+carboxymethyl cellulose, powder
+cerium oxide
+chemical, inorganic
+chemical, organic
+chlorine dioxide
+chlorine, gaseous
+chlorine, liquid
+chloroacetic acid
+chloroacetyl chloride
+chlorodifluoromethane
+chloromethyl methyl ether
+chloronitrobenzene
+chloropropionic acid
+chlorosulfonic acid
+chlorothalonil
+chlorotoluron
+chromium oxide, flakes
+citric acid
+copper carbonate
+copper oxide
+copper sulfate
+cryolite
+cumene
+cyanoacetic acid
+cyanogen chloride
+cyanuric chloride
+cyclic N-compound
+cyclohexane
+cyclohexanol
+cyclohexanone
+de-icer
+decabromodiphenyl ether
+deinking emulsion, in paper production
+diammonium phosphate
+diazine-compound
+diazole-compound
+diborane
+dichloromethane
+dichloropropene
+diethanolamine
+diethyl ether, without water, in 99.95% solution state
+diethylene glycol
+dimethenamide
+dimethyl carbonate
+dimethyl ether
+dimethyl hexanediol
+dimethyl hexynediol
+dimethyl malonate
+dimethyl sulfate
+dimethyl sulfide
+dimethyl sulfoxide
+dimethylacetamide
+dimethylamine
+dimethylamine borane
+dimethylaminopropylamine
+dimethyldichlorosilane
+dinitroaniline-compound
+dinitrogen tetroxide
+dioxane
+diphenylether-compound
+dipropyl amine
+dipropylene glycol monomethyl ether
+dithiocarbamate-compound
+dodecanol
+dolomite
+dysprosium oxide
+electrolyte, KOH, LiOH additive
+enzymes
+epichlorohydrin
+erbium oxide
+esters of versatic acid
+ethane
+ethyl acetate
+ethyl benzene
+ethylamine
+ethylene bromide
+ethylene carbonate
+ethylene dichloride
+ethylene glycol
+ethylene glycol diethyl ether
+ethylene glycol dimethyl ether
+ethylene glycol monoethyl ether
+ethylene oxide
+ethylenediamine
+explosive, tovex
+fatty acid
+fatty alcohol
+fluorescent whitening agent, DAS1, triazinylaminostilben type
+fluorescent whitening agent, distyrylbiphenyl type
+fluorine, liquid
+fluorspar, 97% purity
+fluosilicic acid, without water, in 22% solution state
+flux, for wave soldering
+folpet
+formaldehyde
+formic acid
+fosetyl-Al
+gadolinium oxide
+gallium, in Bayer liquor from aluminium production
+gallium, semiconductor-grade
+hydrazine
+glycine
+glyoxal
+glyphosate
+graphite, battery grade
+hydrazine sulfate
+heat carrier liquid, 40% C3H8O2
+heavy water
+helium
+helium, crude
+helium, crude stockpiling
+hexafluoroethane
+hexamethyldisilazane
+holmium oxide
+hydraulic fracturing fluid
+hydrochloric acid, without water, in 30% solution state
+hydrogen cyanide
+hydrogen fluoride
+hydrogen peroxide, without water, in 50% solution state
+hydrogen sulfide
+hydrogen, liquid
+hydroquinone
+hydroxylamine
+imidazole
+indium
+indium tin oxide powder, nanoscale, for sputtering target
+inert gas for discharge lamps
+iodine
+iron (III) chloride, without water, in 40% solution state
+iron sulfate
+iron(II) chloride
+iron(III) chloride, without water, in 14% iron solution state
+iron(III) chloride, without water, in a 12% iron solution state
+iron(III) sulfate, without water, in 12.5% iron solution state
+isobutanol
+isobutyl acetate
+isohexane
+isopropanol
+isopropyl acetate
+isopropylamine
+isoproturon
+krypton, gaseous
+lactic acid
+lanthanum oxide
+lithium
+lithium brine, 6.7 % Li
+lithium carbonate
+lithium chloride
+lithium fluoride
+lithium hexafluorophosphate
+lithium hydroxide
+lithium manganese oxide
+lutetium oxide
+maleic anhydride
+mancozeb
+manganese dioxide
+manganese sulfate
+manganese(III) oxide
+mecoprop
+melamine
+melamine urea formaldehyde adhesive
+meta-phenylene diamine
+metaldehyde
+metallization paste, back side
+metallization paste, back side, aluminium
+metallization paste, front side
+metamitron
+methacrylic acid
+methane sulfonic acid
+methanol
+methyl acetate
+methyl acrylate
+methyl ethyl ketone
+methyl formate
+methyl iodide
+methyl tert-butyl ether
+methyl-3-methoxypropionate
+methylamine
+methylchloride
+metolachlor
+monoammonium phosphate
+monochlorobenzene
+monochloropentafluoroethane
+monoethanolamine
+morpholine
+n-olefins
+naphthalene sulfonic acid
+napropamide
+neodymium oxide
+neutralising agent, sodium hydroxide-equivalent
+nickel sulfate
+nitrate salts, for solar power application
+nitric acid, without water, in 50% solution state
+nitric oxide
+nitrile-compound
+nitro-compound
+nitrobenzene
+nitrogen, liquid
+nitrous dioxide
+nitrous oxide
+o-aminophenol
+o-chlorobenzaldehyde
+o-chlorotoluene
+o-cresol
+o-dichlorobenzene
+o-nitrophenol
+octabenzone
+optical brighteners, for paper production
+orbencarb
+organophosphorus-compound, unspecified
+ortho-phenylene diamine
+oxygen, liquid
+ozone, liquid
+p-chlorophenol
+p-dichlorobenzene
+p-nitrophenol
+p-nitrotoluene
+para-phenylene diamine
+pendimethalin
+pentaerythritol
+perfluoropentane
+pesticide, unspecified
+phenol
+phenoxy-compound
+phenyl acetic acid
+phenyl isocyanate
+phosgene, liquid
+phosphane
+phosphate rock, beneficiated
+phosphoric acid, fertiliser grade, without water, in 70% solution state
+phosphoric acid, industrial grade, without water, in 85% solution state
+phosphorous chloride
+phosphorus oxychloride
+phosphorus pentachloride
+phosphorus trichloride
+phosphorus, white, liquid
+phosphoryl chloride
+phthalic anhydride
+phthalimide
+phthalimide-compound
+piperidine
+pitch despergents, in paper production
+plasticiser, for concrete, based on sulfonated melamine formaldehyde
+polyacrylamide
+polyaluminium chloride
+polydimethylsiloxane
+polysulfone
+polyurethane adhesive
+potash salt
+potassium carbonate
+potassium chloride
+potassium chloride, industrial grade
+potassium hydroxide
+potassium nitrate
+potassium nitrate, agricultural grade
+potassium nitrate, industrial grade
+potassium nitrate, technical grade
+potassium perchlorate
+potassium permanganate
+potassium sulfate
+praseodymium oxide
+propanal
+propane
+propionic acid
+propyl amine
+propylene glycol, liquid
+propylene oxide, liquid
+prosulfocarb
+pyrazole
+pyrethroid-compound
+pyridazine-compound
+pyridine
+pyridine-compound
+refrigerant R134a
+retention aid, for paper production
+salicylic acid
+samarium-europium-gadolinium oxide
+selenium
+silicon tetrachloride
+silicon tetrahydride
+silicon, electronics grade
+silicon, metallurgical grade
+silicon, multi-Si, casted
+silicon, single crystal, Czochralski process, electronics
+silicon, single crystal, Czochralski process, photovoltaics
+silicon, solar grade
+single superphosphate
+soda ash, dense
+soda ash, light, crystalline, heptahydrate
+sodium
+sodium aluminate, powder
+sodium amide
+sodium bicarbonate
+sodium borates
+sodium chlorate, powder
+sodium chloride, powder
+sodium chloroacetate
+sodium cumenesulphonate
+sodium cyanide
+sodium dichromate
+sodium dithionite, anhydrous
+sodium ethoxide
+sodium fluoride
+sodium formate
+sodium hydrogen sulfate
+sodium hydrogen sulfite
+sodium hydrosulfide
+sodium hydroxide, without water, in 50% solution state
+sodium hypochlorite, without water, in 15% solution state
+sodium methoxide
+sodium nitrate
+sodium nitrate, technical grade
+sodium nitrate, unrefined
+sodium nitrite
+sodium oxide
+sodium perchlorate
+sodium persulfate
+sodium phenolate
+sodium phosphate
+sodium pyrophosphate
+sodium silicate, solid
+sodium silicate, spray powder, 80%
+sodium silicate, without water, in 37% solution state
+sodium silicate, without water, in 48% solution state
+sodium sulfate, anhydrite
+sodium sulfide
+sodium sulfite
+sodium tetrafluoroborate
+sodium tetrahydridoborate
+soft solder, Sn97Cu3
+soil pH raising agent, as CaCO3
+solder, bar, Sn63Pb37, for electronics industry
+solder, bar, Sn95.5Ag3.9Cu0.6, for electronics industry
+solder, paste, Sn63Pb37, for electronics industry
+solder, paste, Sn95.5Ag3.9Cu0.6, for electronics industry
+stearic acid
+strontium carbonate
+succinic acid
+sulfamic acid
+sulfite
+sulfur dichloride
+sulfur dioxide, liquid
+sulfur hexafluoride, liquid
+sulfur stockpiling
+sulfur trioxide
+sulfuric acid
+sulfuryl chloride
+tall oil, crude
+tantalum, powder, capacitor-grade
+tellurium, semiconductor-grade
+terbium oxide
+terbium-dysprosium oxide
+tert-butyl amine
+tetrachloroethylene
+tetraethyl orthosilicate
+tetrafluoroethane
+tetrahydrofuran
+thionyl chloride
+thulium oxide
+tin dioxide
+titanium dioxide
+toluene, liquid
+triazine-compound, unspecified
+trichloroacetic acid
+trichloroborane
+trichloroethylene
+trichloromethane
+trichloropropane
+triethanolamine
+triethyl amine
+triethylene glycol
+trifluoroacetic acid
+trifluoromethane
+trimesoyl chloride
+trimethyl borate
+trimethylamine
+triphenyl phosphate
+triple superphosphate
+tris(2,4-ditert-butylphenyl) phosphite
+trisodium phosphate
+turpentine
+uranium, enriched 3.0%, in fuel element for light water reactor
+uranium, enriched 3.0%, per separative work unit
+urea
+urea ammonium nitrate mix
+venting of argon, crude, liquid
+venting of nitrogen, liquid
+vinyl fluoride
+water, decarbonised
+xenon, gaseous
+xylene
+zinc concentrate
+zinc monosulfate
+zinc oxide
+zinc sulfide
+zirconium oxide
+acetone cyanohydrin
+acrylonitrile-butadiene-styrene copolymer
+anionic resin
+bisphenol A epoxy based vinyl ester resin
+butadiene
+cationic resin
+dicyclopentadiene based unsaturated polyester resin
+epoxy resin insulator, Al2O3
+epoxy resin insulator, SiO2
+epoxy resin, liquid
+ethylene vinyl acetate copolymer
+ethylvinylacetate, foil
+isophthalic acid based unsaturated polyester resin
+latex
+maleic unsaturated polyester resin
+melamine formaldehyde resin
+methyl methacrylate
+methylene diphenyl diisocyanate
+nylon 6
+nylon 6-6
+nylon 6-6, glass-filled
+nylon 6, glass-filled
+orthophthalic acid based unsaturated polyester resin
+phenolic resin
+polybutadiene
+polycarbonate
+polyester resin, unsaturated
+polyethylene terephthalate, granulate, amorphous
+polyethylene terephthalate, granulate, bottle grade
+polyethylene, high density, granulate
+polyethylene, linear low density, granulate
+polyethylene, low density, granulate
+polylactide, granulate
+polymer foaming
+polymethyl methacrylate, beads
+polymethyl methacrylate, sheet
+polyol
+polyphenylene sulfide
+polypropylene, granulate
+polystyrene, general purpose
+polystyrene, high impact
+polysulfide, sealing compound
+polyurethane, flexible foam
+polyurethane, rigid foam
+polyvinylchloride, bulk polymerised
+polyvinylchloride, emulsion polymerised
+polyvinylchloride, suspension polymerised
+polyvinylfluoride
+polyvinylfluoride, dispersion
+polyvinylfluoride, film
+polyvinylidenchloride, granulate
+purified terephthalic acid
+sealing tape, aluminium/PE, 50 mm wide
+styrene
+styrene-acrylonitrile copolymer
+synthetic rubber
+tetrafluoroethylene
+tetrafluoroethylene film, on glass
+toluene diisocyanate
+urea formaldehyde foam slab, hard
+urea formaldehyde foam, in situ foaming
+urea formaldehyde resin
+vinyl acetate
+vinyl chloride
+hexane
+kerosene
+methylcyclopentane
+naphtha
+paraffin
+pentane
+propylene
+benzene
+ethylene, average
+heptane
