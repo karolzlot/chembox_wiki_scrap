@@ -27,6 +27,23 @@ def replace_all(text, replace_dict):
     return text
 
 
+def clean_value(value):
+    replace_dict={
+    '<sup>':'^',
+    '</sup>':'',
+    # '&nbsp;':' ',
+    '<sub>':'',
+    '</sub>':'',
+    "'":"",
+    }
+
+    value = replace_all(value,replace_dict)
+    value = remove_markup(value)
+    return value.replace('{{','').replace('}}','').strip()
+
+
+
+
 def parse_wiki_template(t): 
     # print(t.pformat())
     result_dict={}
@@ -97,6 +114,9 @@ def parse_wiki_template(t):
             'ImageFileR3',
             'ImageSizeR3',
             'ImageCaptionR3',
+            'PPhrases',
+            'HPhrases',
+            'GHSPictograms',
         ]
         standard_items=[
             'Name',
@@ -272,19 +292,21 @@ def parse_wiki_template(t):
 
 
         elif item_name in standard_items:
-            replace_dict={
-                '<sup>':'^',
-                '</sup>':'',
-                '&nbsp;':' ',
-                '[':'',
-                ']':'',
-                '<sub>':'',
-                '</sub>':'',
-            }
-            item_value = replace_all(item_value,replace_dict) # string cleaning
+            # replace_dict={
+            #     '<sup>':'^',
+            #     '</sup>':'',
+            #     '&nbsp;':' ',
+            #     '[':'',
+            #     ']':'',
+            #     '<sub>':'',
+            #     '</sub>':'',
+            # }
+            # item_value = replace_all(item_value,replace_dict) # string cleaning
             
             item_value = re.sub('<ref.*?</ref>', '', item_value) # remove wikipedia references
             item_value = re.sub('<ref .*?/>', '', item_value) # remove wikipedia references
+
+            item_value = clean_value(item_value)
 
             result_dict.update({item_name:item_value})
 
@@ -301,49 +323,51 @@ def parse_wiki_template(t):
 
         elif item_name in ['OtherNames','OtherCompounds','OtherFunction']: 
             replace_dict={
-                '<sup>':'^',
-                '</sup>':'',
-                '&nbsp;':' ',
-                '<sub>':'',
-                '</sub>':'',
+                # '<sup>':'^',
+                # '</sup>':'',
+                # '&nbsp;':' ',
+                # '<sub>':'',
+                # '</sub>':'',
                 '<br/>':'<br />',
                 '<br>':'<br />',
-                "'":"",
+                # "'":"",
                 '[':'',
                 ']':'',
             }
             item_value = replace_all(item_value,replace_dict)
             
             item_values = item_value.split("<br />")
+            
+            item_values= [clean_value(item_value) for item_value in item_values]
 
             result_dict.update({item_name:item_values})
 
 
-        elif item_name in ['GHSPictograms']: 
-            item_value= item_value.removeprefix('{{')
-            item_value= item_value.removesuffix('}}')
+        # elif item_name in ['GHSPictograms']: 
+        #     item_value= item_value.removeprefix('{{')
+        #     item_value= item_value.removesuffix('}}')
             
-            item_values = item_value.split("}}{{")
+        #     item_values = item_value.split("}}{{")
 
-            result_dict.update({item_name:item_values}) 
+        #     result_dict.update({item_name:item_values}) 
                
-        elif item_name in ['HPhrases']: 
-            item_value= item_value.removeprefix('{{H-phrases|')
-            item_value= item_value.removesuffix('}}')
-            item_values = item_value.split("|")
+        # elif item_name in ['HPhrases']: 
+        #     item_value= item_value.removeprefix('{{H-phrases|')
+        #     item_value= item_value.removesuffix('}}')
+        #     item_values = item_value.split("|")
 
-            item_values= ['H' + item_value for item_value in item_values] # add prefix
+        #     item_values= ['H' + item_value for item_value in item_values] # add prefix
 
-            result_dict.update({item_name:item_values})    
+        #     result_dict.update({item_name:item_values})    
 
-        elif item_name in ['PPhrases']: 
-            item_value= item_value.removeprefix('{{P-phrases|')
-            item_value= item_value.removesuffix('}}')
-            item_values = item_value.split("|")
+        # elif item_name in ['PPhrases']: 
+        #     item_value= item_value.removeprefix('{{P-phrases|')
+        #     item_value= item_value.removesuffix('}}')
+        #     item_values = item_value.split("|")
 
-            item_values= ['P' + item_value for item_value in item_values] # add prefix
+        #     item_values= ['P' + item_value for item_value in item_values] # add prefix
 
-            result_dict.update({item_name:item_values})    
+        #     result_dict.update({item_name:item_values})    
 
         else:
             # print(f'Not supported item:  {item_name}    {item_value}')
@@ -412,8 +436,9 @@ async def scrap_substance(substance):
             result_dict = parse_wiki_template(t)
             print()
 
-            with open(f'./substances/{substance}.txt', 'w') as the_file:
-                the_file.write(json.dumps(result_dict))
+            with open(f'./substances/{substance}.json', 'w', encoding='utf8') as file:
+                json.dump(result_dict, file, ensure_ascii=False)
+                # file.write(json.dumps(result_dict))
 
             all_substances.append(result_dict)
 
@@ -449,47 +474,23 @@ async def main():
     tasks=[]
 
     for substance in substances:
-
-
         tasks.append(scrap_substance(substance))
-        # tasks.append(asyncio.create_task())
 
     end = timer()
     print(f'time4: {end - start}')
 
-    # loop = asyncio.get_event_loop()
-    # loop.run_until_complete(asyncio.wait(tasks))
     await asyncio.gather(*tasks)
 
-    # asyncio.run_until_complete(asyncio.wait(tasks))
 
-    # with open('new_keys_dict.txt', 'a') as the_file:
-    #     for i, j in new_keys_dict.items():
-    #         the_file.write(f'{i}   {j}' +'\n')
-
-    # with open('new_keys_dict2.txt', 'a') as the_file:
-    #     for i, j in new_keys_dict.items():
-    #         the_file.write(f'{i}' +'\n')
-
-    # counter =Counter(new_keys_list)
-
-    # with open('new_keys_dict3.txt', 'a') as the_file:
-    #     for i, j in counter.items():
-    #         the_file.write(f'{i}   {j}' +'\n')
-    
-    # with open('new_keys_dict4.txt', 'a') as the_file:
-    #     for i, j in OrderedDict(counter.most_common()).items():
-    #         the_file.write(f'{i}   {j}' +'\n')
-    
-    with open('all_substances.json', 'w') as the_file:
-        the_file.write(json.dumps(all_substances))
+    with open('all_substances.json', 'w', encoding='utf8') as json_file:
+        json.dump(all_substances, json_file, ensure_ascii=False)
+        # json_file.write(json.dumps(all_substances))
 
 
     all_substances_xml = dicttoxml(all_substances, custom_root='substances', attr_type=False)
     print()
-    with open('all_substances.xml', 'wb') as the_file:
-        the_file.write(all_substances_xml)
-
+    with open('all_substances.xml', 'wb') as xml_file:
+        xml_file.write(all_substances_xml)
 
 
 
@@ -501,32 +502,6 @@ if __name__ == '__main__':
 
     asyncio.run(main())
     
-
-    # df = pd.read_excel('substances_scraping_wikipedia_info.xlsx') # can also index sheet by name or fetch all sheets
-    # substances = df['substances'].tolist()
-
-
-
-
-
-
-
-
-
-    # loop.close()
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
