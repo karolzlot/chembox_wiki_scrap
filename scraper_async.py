@@ -380,7 +380,6 @@ def parse_wiki_template(t):
 
 
 
-# @request_concurrency_limit_decorator(limit=3)
 async def scrap_substance(substance):
 
 
@@ -397,7 +396,6 @@ async def scrap_substance(substance):
     wikipedia_title=substance[:]
 
     url=f'https://en.wikipedia.org/w/index.php?title={wikipedia_title}&action=raw'
-    # response = requests.get(url)
     async with httpx.AsyncClient() as client:
         response = await client.get(url, timeout=30.0)
 
@@ -415,7 +413,6 @@ async def scrap_substance(substance):
         print(f'redirect: {substance} -> {wikipedia_title}')
         
         url=f'https://en.wikipedia.org/w/index.php?title={wikipedia_title}&action=raw'
-        # response = requests.get(url)
         async with httpx.AsyncClient() as client:
             response = await client.get(url, timeout=30.0)
 
@@ -438,7 +435,6 @@ async def scrap_substance(substance):
 
             with open(f'./substances/{substance}.json', 'w', encoding='utf8') as file:
                 json.dump(result_dict, file, ensure_ascii=False)
-                # file.write(json.dumps(result_dict))
 
             all_substances.append(result_dict)
 
@@ -484,7 +480,6 @@ async def main():
 
     with open('all_substances.json', 'w', encoding='utf8') as json_file:
         json.dump(all_substances, json_file, ensure_ascii=False)
-        # json_file.write(json.dumps(all_substances))
 
 
     all_substances_xml = dicttoxml(all_substances, custom_root='substances', attr_type=False)
@@ -499,13 +494,4 @@ if __name__ == '__main__':
     end = timer()
     print(f'time1: {end - start}')
 
-
     asyncio.run(main())
-    
-
-
-
-     ### TODO remove_markup
-                
-    #### TODO: dodać usuwanie linków            
-    #### TODO: przeszukać small           
