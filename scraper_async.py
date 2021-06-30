@@ -1,47 +1,22 @@
-# import requests
 import wikitextparser as wtp
 import json
 import re
-# import pandas as pd
 import os
 import os.path
 import asyncio
-from functools import wraps
 import httpx
 from timeit import default_timer as timer
 from wikitextparser import remove_markup, parse
 from collections import Counter, OrderedDict
+from dicttoxml import dicttoxml
 
 
 new_keys_dict={}
 new_keys_list=[]
 
-
 all_substances=[]
 
-
-
-# loop = asyncio.get_event_loop()
 start = timer()
-
-
-# def request_concurrency_limit_decorator(limit=3):
-#     # Bind the default event loop 
-#     sem = asyncio.Semaphore(limit)
-
-#     def executor(func):
-#         @wraps(func)
-#         async def wrapper(*args, **kwargs):
-#             async with sem:
-#                 return await func(*args, **kwargs)
-
-#         return wrapper
-
-#     return executor
-
-
-
-
 
 
 
@@ -507,11 +482,13 @@ async def main():
     #         the_file.write(f'{i}   {j}' +'\n')
     
     with open('all_substances.json', 'w') as the_file:
-            the_file.write(json.dumps(all_substances))
+        the_file.write(json.dumps(all_substances))
 
 
-    
-
+    all_substances_xml = dicttoxml(all_substances, custom_root='substances', attr_type=False)
+    print()
+    with open('all_substances.xml', 'wb') as the_file:
+        the_file.write(all_substances_xml)
 
 
 
