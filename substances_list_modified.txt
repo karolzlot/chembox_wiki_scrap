@@ -75,7 +75,7 @@ anthraquinone
 
 
 arsine
-ascorbic acid
+
 atrazine
 azodicarbonamide
 barium carbonate
@@ -143,7 +143,7 @@ chloromethyl methyl ether
 2-Chloronitrobenzene
 3-Chloronitrobenzene
 4-Chloronitrobenzene
-chloropropionic acid
+2-Chloropropionic acid
 chlorosulfonic acid
 chlorothalonil
 chlorotoluron
@@ -166,7 +166,7 @@ cumene
 cyanoacetic acid
 cyanogen chloride
 cyanuric chloride
-cyclic N
+
 cyclohexane
 cyclohexanol
 cyclohexanone
@@ -360,7 +360,7 @@ o-chlorobenzaldehyde
 
 o-cresol
 o-dichlorobenzene
-o-nitrophenol
+
 octabenzone
 
 
@@ -430,7 +430,7 @@ pyrazole
 pyridazine
 pyridine
 pyridine
-refrigerant R134a
+refrigerant 134a
 
 salicylic acid
 Europium(III) oxide
