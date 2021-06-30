@@ -1,39 +1,9 @@
-# import requests
+import requests
 import wikitextparser as wtp
 import json
 import re
-# import pandas as pd
+import pandas as pd
 import os.path
-import asyncio
-from functools import wraps
-import httpx
-from timeit import default_timer as timer
-
-
-# loop = asyncio.get_event_loop()
-start = timer()
-
-
-# def request_concurrency_limit_decorator(limit=3):
-#     # Bind the default event loop 
-#     sem = asyncio.Semaphore(limit)
-
-#     def executor(func):
-#         @wraps(func)
-#         async def wrapper(*args, **kwargs):
-#             async with sem:
-#                 return await func(*args, **kwargs)
-
-#         return wrapper
-
-#     return executor
-
-
-
-
-
-
-
 
 def replace_all(text, replace_dict):
     for i, j in replace_dict.items():
@@ -332,137 +302,71 @@ def parse_wiki_template(t):
 
 
 
-# @request_concurrency_limit_decorator(limit=3)
-async def scrap_substance(substance):
-
-
-    if os.path.isfile(f'./substances/{substance}.txt') :
-        return
-
-    if not substance:
-        return
-
-
-    end = timer()
-    print(f'time5: {end - start}')
-
-    wikipedia_title=substance[:]
-
-    url=f'https://en.wikipedia.org/w/index.php?title={wikipedia_title}&action=raw'
-    # response = requests.get(url)
-    async with httpx.AsyncClient() as client:
-        response = await client.get(url)
-
-    end = timer()
-    print(f'time6: {end - start}')
-
-    if response.status_code== 404:
-        print(f'404: {substance}')
-        with open(f'./substances/{substance}.txt', 'w') as the_file:
-            the_file.write('404')  
-        return
-
-    if response.text[:9].upper()=='#REDIRECT':
-        wikipedia_title = re.search('\[\[(.+?)\]\]', response.text.split('\n')[0]).group(1).strip() # new title after redirect
-        print(f'redirect: {substance} -> {wikipedia_title}')
-        
-        url=f'https://en.wikipedia.org/w/index.php?title={wikipedia_title}&action=raw'
-        # response = requests.get(url)
-        async with httpx.AsyncClient() as client:
-            response = await client.get(url)
-
-    with open(f'./substances/{substance}_wikitext.txt', 'w') as the_file:
-        the_file.write(response.text)
-
-    # text= response.text ##
-
-    parsed = wtp.parse(response.text)
-
-    print(substance)
-    print()
-
-    chembox=False
-    for t in parsed.templates:
-        if t.name.strip().lower() in ['chembox','chembox\n<!-- images -->', 'infobox drug' ]:
-            chembox=True
-            result_dict = parse_wiki_template(t)
-            print()
-
-            with open(f'./substances/{substance}.txt', 'w') as the_file:
-                the_file.write(json.dumps(result_dict))
-
-            break
-    if not chembox:
-        print(f'No chembox: {substance} $$ {wikipedia_title}')      
-
-
-
-
-
-
-async def main(loop):
-
-    # no_concurrent = 3
-    # dltasks = set()
-    # i = 0
-    # while i < 9:
-    #     if len(dltasks) >= no_concurrent:
-    #         # Wait for some download to finish before adding a new one
-    #         _done, dltasks = await asyncio.wait(
-    #             dltasks, return_when=asyncio.FIRST_COMPLETED)
-    #     dltasks.add(loop.create_task(download(i)))
-    #     i += 1
-    # # Wait for the remaining downloads to finish
-    # await asyncio.wait(dltasks)
-
-
-    end = timer()
-    print(f'time2: {end - start}')
-
-    print('start')
-
-
-    with open('substances_list_modified.txt') as f:
-        substances =f.read().splitlines()
-
-    end = timer()
-    print(f'time3: {end - start}')
-
-    tasks=[]
-
-    for substance in substances:
-
-
-        tasks.append(scrap_substance(substance))
-        # tasks.append(asyncio.create_task())
-
-    end = timer()
-    print(f'time4: {end - start}')
-
-    # loop = asyncio.get_event_loop()
-    # loop.run_until_complete(asyncio.wait(tasks))
-    await asyncio.gather(*tasks)
-
-    # asyncio.run_until_complete(asyncio.wait(tasks))
-
-
-
-
 
 
 
 if __name__ == '__main__':
-    
-    end = timer()
-    print(f'time1: {end - start}')
 
 
-    asyncio.run(main())
     
 
     # df = pd.read_excel('substances_scraping_wikipedia_info.xlsx') # can also index sheet by name or fetch all sheets
     # substances = df['substances'].tolist()
 
+    with open('substances_list_modified.txt') as f:
+        substances =f.read().splitlines()
+
+
+
+    for substance in substances:
+        
+        if os.path.isfile(f'./substances/{substance}.txt') :
+            continue
+
+        if not substance:
+            continue
+        
+        wikipedia_title=substance[:]
+
+        url=f'https://en.wikipedia.org/w/index.php?title={wikipedia_title}&action=raw'
+        response = requests.get(url)
+
+        if response.status_code== 404:
+            print(f'404: {substance}')
+            with open(f'./substances/{substance}.txt', 'w') as the_file:
+                the_file.write('404')  
+            continue
+
+        if response.text[:9].upper()=='#REDIRECT':
+            wikipedia_title = re.search('\[\[(.+?)\]\]', response.text.split('\n')[0]).group(1).strip() # new title after redirect
+            print(f'redirect: {substance} -> {wikipedia_title}')
+            
+            url=f'https://en.wikipedia.org/w/index.php?title={wikipedia_title}&action=raw'
+            response = requests.get(url)
+
+        with open(f'./substances/{substance}_wikitext.txt', 'w') as the_file:
+            the_file.write(response.text)
+
+        # text= response.text ##
+
+        parsed = wtp.parse(response.text)
+
+        print(substance)
+        print()
+
+        chembox=False
+        for t in parsed.templates:
+            if t.name.strip().lower() in ['chembox','chembox\n<!-- images -->', 'infobox drug' ]:
+                chembox=True
+                result_dict = parse_wiki_template(t)
+                print()
+
+                with open(f'./substances/{substance}.txt', 'w') as the_file:
+                    the_file.write(json.dumps(result_dict))
+
+                break
+        if not chembox:
+            print(f'No chembox: {substance} $$ {wikipedia_title}')        
 
 
 
@@ -471,7 +375,11 @@ if __name__ == '__main__':
 
 
 
-    # loop.close()
+
+
+
+
+
 
 
 
