@@ -431,7 +431,8 @@ async def scrap_substance(substance):
         if t.name.strip().lower() in ['chembox','chembox\n<!-- images -->', 'chembox <!-- infobox -->']:
             chembox=True
             result_dict = parse_wiki_template(t)
-            print()
+
+            result_dict['url']='https://en.wikipedia.org/wiki/'+wikipedia_title
 
             with open(f'./substances/{substance}.json', 'w', encoding='utf8') as file:
                 json.dump(result_dict, file, ensure_ascii=False)
