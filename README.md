@@ -2,8 +2,7 @@
 
 Run `scraper_async.py`
 
-Result:
-`substances` folder will be generated + `all_substances.json`, `all_substances.xml` and `all_substances.xlsx` files
+Result files will be generated: `all_substances.json`, `all_substances.xml` and `all_substances.xlsx`.
 
 Wikipedia pages are cached in `cache` folder, but you can remove it safely.
 
