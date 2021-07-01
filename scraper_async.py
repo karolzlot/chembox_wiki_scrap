@@ -9,13 +9,11 @@ from wikitextparser import remove_markup
 from collections import Counter, OrderedDict
 from dicttoxml import dicttoxml
 import urllib.parse
+import aiofiles
 
 
-# new_keys_dict={}
-# new_keys_list=[]
 
 all_substances={}
-
 
 
 def replace_all(text, replace_dict):
@@ -40,15 +38,12 @@ def clean_value(value):
 
 
 
-
 def parse_wiki_template(t): 
-    # print(t.pformat())
+
     result_dict={}
     for item in t.arguments:
         item_name=item.name.strip()
         item_value=item.value.strip()
-
-        
 
 
         ignored_items=[
@@ -111,10 +106,10 @@ def parse_wiki_template(t):
             'ImageFileR3',
             'ImageSizeR3',
             'ImageCaptionR3',
-            'PPhrases',
-            'HPhrases',
-            'GHSPictograms',
+            'ImageCaption1',
+            'ImageAlt2',
         ]
+
         standard_items=[
             'Name',
             'PIN',
@@ -159,7 +154,7 @@ def parse_wiki_template(t):
             'DeltaHf',
             'DeltaHc',
             'Entropy',
-            'ExternalSDS',  ##
+            'ExternalSDS',
             'NFPA-H',
             'NFPA-F',
             'NFPA-R',
@@ -170,13 +165,13 @@ def parse_wiki_template(t):
             'PEL',
             'IDLH',
             'REL',
-            'LC50',  ##
-            'LDLo',  ##
-            'LCLo',  ##
+            'LC50',
+            'LDLo',
+            'LCLo',
             'MeltingPtK',
             'BoilingPtK',
             'HeatCapacity',
-            'GHSSignalWord', ##
+            'GHSSignalWord',
             'data page pagename',
             'pKb',
             'ATCCode_prefix',
@@ -201,7 +196,7 @@ def parse_wiki_template(t):
             'ChemSpiderID1_Comment',
             'ChemSpiderID2',
             'ChemSpiderID2_Comment',
-            'OtherFunction_label', # multiple ?
+            'OtherFunction_label',
             'Formula',
             'MolarMass',
             'HenryConstant',
@@ -237,7 +232,7 @@ def parse_wiki_template(t):
             'FlashPtF',
             'ConjugateBase',
             'CASNo_Comment',
-            'Coordination',  ## <br />
+            'Coordination',
             'SpaceGroup',
             'LattConst_a',
             'LattConst_b',
@@ -253,8 +248,16 @@ def parse_wiki_template(t):
             'MeltingPt',
             'PointGroup',
             'ThermalConductivity',
-            
-
+            'OtherNames',
+            'OtherCompounds',
+            'OtherFunction',
+            'PPhrases',
+            'HPhrases',
+            'GHSPictograms',
+            'RPhrases',
+            'SPhrases',
+            'EUClass',
+            'Abbreviations',
         ]
 
         section_items=[
@@ -275,8 +278,6 @@ def parse_wiki_template(t):
 
 
 
-
-
         if item_value == '': 
             pass
         
@@ -289,19 +290,9 @@ def parse_wiki_template(t):
 
 
         elif item_name in standard_items:
-            # replace_dict={
-            #     '<sup>':'^',
-            #     '</sup>':'',
-            #     '&nbsp;':' ',
-            #     '[':'',
-            #     ']':'',
-            #     '<sub>':'',
-            #     '</sub>':'',
-            # }
-            # item_value = replace_all(item_value,replace_dict) # string cleaning
-            
-            item_value = re.sub('<ref.*?</ref>', '', item_value) # remove wikipedia references
-            item_value = re.sub('<ref .*?/>', '', item_value) # remove wikipedia references
+
+            item_value = re.sub('<ref.*?</ref>', '', item_value) # remove wikipedia references type 1
+            item_value = re.sub('<ref .*?/>', '', item_value)    # remove wikipedia references type 2
 
             item_value = clean_value(item_value)
 
@@ -311,65 +302,14 @@ def parse_wiki_template(t):
         elif item_name in section_items:
             if item.templates:  # if not empty
                 section_dict= parse_wiki_template(item.templates[0]) 
-                # result_dict.update({item_name:section_dict})
+
                 for section_key, section_value in section_dict.items():
                     if (section_key in result_dict) and (section_key  !='Dipole'):
                         raise('reapeated key')
                     result_dict.update({section_key:section_value})
 
-
-        elif item_name in ['OtherNames','OtherCompounds','OtherFunction']: 
-            replace_dict={
-                # '<sup>':'^',
-                # '</sup>':'',
-                # '&nbsp;':' ',
-                # '<sub>':'',
-                # '</sub>':'',
-                '<br/>':'<br />',
-                '<br>':'<br />',
-                # "'":"",
-                '[':'',
-                ']':'',
-            }
-            item_value = replace_all(item_value,replace_dict)
-            
-            item_values = item_value.split("<br />")
-            
-            item_values= [clean_value(item_value) for item_value in item_values]
-
-            result_dict.update({item_name:item_values})
-
-
-        # elif item_name in ['GHSPictograms']: 
-        #     item_value= item_value.removeprefix('{{')
-        #     item_value= item_value.removesuffix('}}')
-            
-        #     item_values = item_value.split("}}{{")
-
-        #     result_dict.update({item_name:item_values}) 
-               
-        # elif item_name in ['HPhrases']: 
-        #     item_value= item_value.removeprefix('{{H-phrases|')
-        #     item_value= item_value.removesuffix('}}')
-        #     item_values = item_value.split("|")
-
-        #     item_values= ['H' + item_value for item_value in item_values] # add prefix
-
-        #     result_dict.update({item_name:item_values})    
-
-        # elif item_name in ['PPhrases']: 
-        #     item_value= item_value.removeprefix('{{P-phrases|')
-        #     item_value= item_value.removesuffix('}}')
-        #     item_values = item_value.split("|")
-
-        #     item_values= ['P' + item_value for item_value in item_values] # add prefix
-
-        #     result_dict.update({item_name:item_values})    
-
         else:
             # print(f'Not supported item:  {item_name}    {item_value}')
-            # new_keys_dict.update({item_name:item_value})
-            # new_keys_list.append(item_name)
 
             with open(f'./not_supported.txt', 'a') as the_file:
                 the_file.write(f'Not supported item:\t{item_name} \t{item_value}\r\n')
@@ -386,15 +326,20 @@ async def cached_download(wikipedia_title,redirect=False):  # download wikipedia
         ext='.txt'
 
     if os.path.isfile(f'./cache/{wikipedia_title}.{ext}') :
-        wikitext = open(f'./cache/{wikipedia_title}.{ext}', "r").read()
+
+        async with aiofiles.open(f'./cache/{wikipedia_title}.{ext}', "r") as f:
+            wikitext = await f.read()
     else:
+        print(f'downloading {wikipedia_title}')
+
         url=f'https://en.wikipedia.org/w/index.php?title={wikipedia_title}&action=raw'
         async with httpx.AsyncClient() as client:
             response = await client.get(url, timeout=30.0)
         response.raise_for_status()
 
-        with open(f'./cache/{wikipedia_title}.{ext}', 'w') as cache_file:
-            cache_file.write(response.text)
+        async with aiofiles.open(f'./cache/{wikipedia_title}.{ext}', 'w') as cache_file:
+            await cache_file.write(response.text)
+
         wikitext=response.text
     return wikitext
 
@@ -460,13 +405,20 @@ async def main():
 
     print("saving results as JSON file...")
     with open('all_substances.json', 'w', encoding='utf8') as json_file:
-        json.dump(all_substances, json_file, ensure_ascii=False)
+        json.dump(sorted_all_substances, json_file, ensure_ascii=False)
 
 
     print("saving results as XML file...")
-    all_substances_xml = dicttoxml(all_substances, custom_root='substances', attr_type=False)
+    all_substances_xml = dicttoxml(sorted_all_substances, custom_root='substances', attr_type=False)
     with open('all_substances.xml', 'wb') as xml_file:
         xml_file.write(all_substances_xml)
+
+
+    print("saving results as XLSX file...")
+    import pandas as pd
+    df = pd.DataFrame.from_dict(sorted_all_substances)
+    df= df.transpose()
+    df.to_excel('all_substances.xlsx')
 
 
 
