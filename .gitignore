@@ -1,4 +1,5 @@
 substances*/
+cache/
 .vscode/
 .env
 deploy.sh

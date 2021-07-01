@@ -5,19 +5,16 @@ import os
 import os.path
 import asyncio
 import httpx
-from timeit import default_timer as timer
-from wikitextparser import remove_markup, parse
+from wikitextparser import remove_markup
 from collections import Counter, OrderedDict
 from dicttoxml import dicttoxml
+import urllib.parse
 
 
-new_keys_dict={}
-new_keys_list=[]
+# new_keys_dict={}
+# new_keys_list=[]
 
-all_substances=[]
-
-start = timer()
-
+all_substances={}
 
 
 
@@ -371,8 +368,9 @@ def parse_wiki_template(t):
 
         else:
             # print(f'Not supported item:  {item_name}    {item_value}')
-            new_keys_dict.update({item_name:item_value})
-            new_keys_list.append(item_name)
+            # new_keys_dict.update({item_name:item_value})
+            # new_keys_list.append(item_name)
+
             with open(f'./not_supported.txt', 'a') as the_file:
                 the_file.write(f'Not supported item:\t{item_name} \t{item_value}\r\n')
     return result_dict
@@ -380,51 +378,48 @@ def parse_wiki_template(t):
 
 
 
+async def cached_download(wikipedia_title,redirect=False):  # download wikipedia pages or takes them from cache folder
+
+    if redirect:
+        ext='.re.txt'
+    else:
+        ext='.txt'
+
+    if os.path.isfile(f'./cache/{wikipedia_title}.{ext}') :
+        wikitext = open(f'./cache/{wikipedia_title}.{ext}', "r").read()
+    else:
+        url=f'https://en.wikipedia.org/w/index.php?title={wikipedia_title}&action=raw'
+        async with httpx.AsyncClient() as client:
+            response = await client.get(url, timeout=30.0)
+        response.raise_for_status()
+
+        with open(f'./cache/{wikipedia_title}.{ext}', 'w') as cache_file:
+            cache_file.write(response.text)
+        wikitext=response.text
+    return wikitext
+
+
+
 async def scrap_substance(substance):
-
-
-    if os.path.isfile(f'./substances/{substance}.txt') :
-        return
 
     if not substance:
         return
 
-
-    end = timer()
-    print(f'time5: {end - start}')
-
     wikipedia_title=substance[:]
 
-    url=f'https://en.wikipedia.org/w/index.php?title={wikipedia_title}&action=raw'
-    async with httpx.AsyncClient() as client:
-        response = await client.get(url, timeout=30.0)
+    wikitext= await cached_download(wikipedia_title)
 
-    end = timer()
-    print(f'time6: {end - start}')
-
-    if response.status_code== 404:
-        print(f'404: {substance}')
-        with open(f'./substances/{substance}.txt', 'w') as the_file:
-            the_file.write('404')  
-        return
-
-    if response.text[:9].upper()=='#REDIRECT':
-        wikipedia_title = re.search('\[\[(.+?)\]\]', response.text.split('\n')[0]).group(1).strip() # new title after redirect
+    
+    if wikitext[:9].upper()=='#REDIRECT':
+        wikipedia_title = re.search('\[\[(.+?)\]\]', wikitext.split('\n')[0]).group(1).strip() # new title after redirect
         print(f'redirect: {substance} -> {wikipedia_title}')
-        
-        url=f'https://en.wikipedia.org/w/index.php?title={wikipedia_title}&action=raw'
-        async with httpx.AsyncClient() as client:
-            response = await client.get(url, timeout=30.0)
 
-    # with open(f'./substances/{substance}_wikitext.txt', 'w') as the_file:
-    #     the_file.write(response.text)
+        wikitext= await cached_download(wikipedia_title,redirect=True)
 
-    # text= response.text ##
+    parsed = wtp.parse(wikitext)
 
-    parsed = wtp.parse(response.text)
+    print(f'exctracting data from wiki page: {wikipedia_title}')
 
-    print(substance)
-    print()
 
     chembox=False
     for t in parsed.templates:
@@ -432,59 +427,44 @@ async def scrap_substance(substance):
             chembox=True
             result_dict = parse_wiki_template(t)
 
-            result_dict['url']='https://en.wikipedia.org/wiki/'+wikipedia_title
+            result_dict['url']='https://en.wikipedia.org/wiki/'+urllib.parse.quote_plus(wikipedia_title)
 
-            with open(f'./substances/{substance}.json', 'w', encoding='utf8') as file:
-                json.dump(result_dict, file, ensure_ascii=False)
-
-            all_substances.append(result_dict)
+            all_substances[substance]= result_dict
 
             break
     if not chembox:
-        print(f'No chembox: {substance} $$ {wikipedia_title}')      
-
-
-
-
+        print(f'No chembox: {wikipedia_title}')      
 
 
 async def main():
 
-    if not os.path.isdir('./substances/'):
-        os.mkdir('./substances/')
+    if not os.path.isdir('./cache/'):
+        os.mkdir('./cache/')
 
-
-
-
-    end = timer()
-    print(f'time2: {end - start}')
-
-    print('start')
-
-
-    with open('substances_list_modified.txt') as f:
+    with open('substances_list_modified.txt') as f:    
         substances =f.read().splitlines()
 
-    end = timer()
-    print(f'time3: {end - start}')
+    substances = [line for line in substances if line.strip() != ""]  # remove empty substance names (empty lines)
 
     tasks=[]
 
-    for substance in substances:
+    for substance in substances:  
         tasks.append(scrap_substance(substance))
 
-    end = timer()
-    print(f'time4: {end - start}')
+    await asyncio.gather(*tasks)    # get all substances asynchronously, results will go to `all_substances` dict
 
-    await asyncio.gather(*tasks)
+    sorted_all_substances=[]
+    for substance in substances:
+        sorted_all_substances.append(all_substances[substance])
+        
 
-
+    print("saving results as JSON file...")
     with open('all_substances.json', 'w', encoding='utf8') as json_file:
         json.dump(all_substances, json_file, ensure_ascii=False)
 
 
+    print("saving results as XML file...")
     all_substances_xml = dicttoxml(all_substances, custom_root='substances', attr_type=False)
-    print()
     with open('all_substances.xml', 'wb') as xml_file:
         xml_file.write(all_substances_xml)
 
@@ -492,7 +472,5 @@ async def main():
 
 if __name__ == '__main__':
     
-    end = timer()
-    print(f'time1: {end - start}')
 
     asyncio.run(main())
