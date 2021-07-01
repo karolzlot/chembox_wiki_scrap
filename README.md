@@ -10,4 +10,4 @@ To rerun, remove `substances` folder
 
 
 ---
-(scrap.py is outdated and slower version)
+(scraper.py is outdated and slower version)
