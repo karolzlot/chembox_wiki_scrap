@@ -17,16 +17,16 @@ python -m venv .venv --prompt chembox_wiki_scrap
 
 2. Run (two options):
 
-    A. Run async verions (faster):
+    A. Run async version (faster):
 
     ```
     python scraper_async.py
     ````
 
-    B. Run sync verions (slower):
+    B. Run sync version (slower):
 
     ```
-    python scraper.py
+    python scraper_sync.py
     ````
 
 
