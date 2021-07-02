@@ -7,7 +7,7 @@ Requires Python 3.9
 
 
 ### Running scraper:
-1. Create virtual env for this project.
+1. Create virtual environment for this project.
 ```
 python -m venv .venv --prompt chembox_wiki_scrap
 .\.venv\Scripts\python -m pip install -U pip
