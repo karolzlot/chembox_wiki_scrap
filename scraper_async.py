@@ -387,10 +387,11 @@ async def scrap_substance(substance):
     for t in parsed.templates:
         if t.name.strip().lower() in ['chembox','chembox\n<!-- images -->', 'chembox <!-- infobox -->']:
             chembox=True
-            result_dict = parse_wiki_template(t)
+            result_dict={}
 
-            result_dict['url']='https://en.wikipedia.org/wiki/'+urllib.parse.quote_plus(wikipedia_title)
             result_dict['substance_name']=wikipedia_title
+            result_dict['url']='https://en.wikipedia.org/wiki/'+urllib.parse.quote_plus(wikipedia_title)
+            result_dict =  result_dict | parse_wiki_template(t)
 
             all_substances[substance]= result_dict
 
@@ -435,8 +436,8 @@ async def main():
     print("saving results as XLSX file...")
     import pandas as pd
     df = pd.DataFrame.from_dict(sorted_all_substances)
-    df= df.transpose()
-    df.to_excel('all_substances.xlsx')
+
+    df.to_excel('all_substances.xlsx',index=False)
 
 
 
