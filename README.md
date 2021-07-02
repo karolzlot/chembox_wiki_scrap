@@ -1,6 +1,6 @@
 # chembox_wiki_scrap
 
-This scraper downloads wikipedia pages, extract informations from chembox templates and saves them to JSON, XML and XLSX files. 
+This scraper downloads wikipedia pages, extract information from chembox templates and saves them to JSON, XML and XLSX files. 
 
 
 Requires Python 3.9
