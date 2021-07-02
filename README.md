@@ -2,12 +2,11 @@
 
 Run `scraper_async.py`
 
-Result:
-`substances` folder will be generated + `all_substances.json` and `all_substances.xml` files
+Result files will be generated: `all_substances.json`, `all_substances.xml` and `all_substances.xlsx`.
 
-To rerun, remove `substances` folder
+Wikipedia pages are cached in `cache` folder, but you can remove it safely.
 
 
 
 ---
-(scraper.py is outdated and slower version)
+(`scraper.py` is outdated and slower version)
