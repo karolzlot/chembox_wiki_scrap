@@ -6,7 +6,6 @@ import os.path
 import asyncio
 import httpx
 from wikitextparser import remove_markup
-from collections import Counter, OrderedDict
 from dicttoxml import dicttoxml
 import urllib.parse
 import aiofiles

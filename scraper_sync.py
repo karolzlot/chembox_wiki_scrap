@@ -1,9 +1,18 @@
-import requests
 import wikitextparser as wtp
 import json
 import re
-import pandas as pd
+import os
 import os.path
+import asyncio
+from wikitextparser import remove_markup
+from dicttoxml import dicttoxml
+import urllib.parse
+import requests
+
+
+
+all_substances={}
+
 
 def replace_all(text, replace_dict):
     for i, j in replace_dict.items():
@@ -11,14 +20,28 @@ def replace_all(text, replace_dict):
     return text
 
 
+def clean_value(value):
+    replace_dict={
+    '<sup>':'^',
+    '</sup>':'',
+    # '&nbsp;':' ',
+    '<sub>':'',
+    '</sub>':'',
+    "'":"",
+    }
+
+    value = replace_all(value,replace_dict)
+    value = remove_markup(value)
+    return value.replace('{{','').replace('}}','').strip()
+
+
+
 def parse_wiki_template(t): 
-    # print(t.pformat())
+
     result_dict={}
     for item in t.arguments:
         item_name=item.name.strip()
         item_value=item.value.strip()
-
-        
 
 
         ignored_items=[
@@ -68,21 +91,23 @@ def parse_wiki_template(t):
             'ImageName3',
             'ImageSizeL2',
             'ImageSizeR2',
-            '',
-            '',
-            '',
-            '',
-            '',
-            '',
-            '',
-            '',
-            '',
-            '',
-            '',
-            '',
-            '',
-            '',
+            'Verifiedimages',
+            'ImageCaption',
+            'ImageCaption3',
+            'ImageCaptionL1',
+            'ImageCaptionR1',
+            'ImageCaptionL2',
+            'ImageCaptionR2',
+            'ImageFileL3',
+            'ImageSizeL3',
+            'ImageCaptionL3',
+            'ImageFileR3',
+            'ImageSizeR3',
+            'ImageCaptionR3',
+            'ImageCaption1',
+            'ImageAlt2',
         ]
+
         standard_items=[
             'Name',
             'PIN',
@@ -127,8 +152,7 @@ def parse_wiki_template(t):
             'DeltaHf',
             'DeltaHc',
             'Entropy',
-            'ExternalSDS',  ##
-            'GHSPictograms',  ##
+            'ExternalSDS',
             'NFPA-H',
             'NFPA-F',
             'NFPA-R',
@@ -139,15 +163,13 @@ def parse_wiki_template(t):
             'PEL',
             'IDLH',
             'REL',
-            'LC50',  ##
-            'LDLo',  ##
-            'LCLo',  ##
+            'LC50',
+            'LDLo',
+            'LCLo',
             'MeltingPtK',
             'BoilingPtK',
             'HeatCapacity',
-            'GHSSignalWord', ##
-            'HPhrases', ##### rozdzielić H111 H222 ...
-            'PPhrases', ##### rozdzielić H111 H222 ...
+            'GHSSignalWord',
             'data page pagename',
             'pKb',
             'ATCCode_prefix',
@@ -172,8 +194,7 @@ def parse_wiki_template(t):
             'ChemSpiderID1_Comment',
             'ChemSpiderID2',
             'ChemSpiderID2_Comment',
-            'OtherFunction_label', # multiple ?
-            'OtherFunction', ## multiple
+            'OtherFunction_label',
             'Formula',
             'MolarMass',
             'HenryConstant',
@@ -209,18 +230,32 @@ def parse_wiki_template(t):
             'FlashPtF',
             'ConjugateBase',
             'CASNo_Comment',
-            'Coordination',  ## <br />
+            'Coordination',
             'SpaceGroup',
             'LattConst_a',
             'LattConst_b',
             'LattConst_c',
             'UnitCellFormulas',
-            '',
-            '',
-            '',
-            '',
-            
-
+            'DeltaGf',
+            'Solvent1',
+            'Solvent2',
+            'Solvent3',
+            'Solubility1',
+            'Solubility2',
+            'Solubility3',
+            'MeltingPt',
+            'PointGroup',
+            'ThermalConductivity',
+            # 'OtherNames',
+            # 'OtherCompounds',
+            # 'OtherFunction',
+            'PPhrases',
+            'HPhrases',
+            'GHSPictograms',
+            'RPhrases',
+            'SPhrases',
+            'EUClass',
+            'Abbreviations',
         ]
 
         section_items=[
@@ -241,8 +276,6 @@ def parse_wiki_template(t):
 
 
 
-
-
         if item_value == '': 
             pass
         
@@ -255,19 +288,11 @@ def parse_wiki_template(t):
 
 
         elif item_name in standard_items:
-            replace_dict={
-                '<sup>':'^',
-                '</sup>':'',
-                '&nbsp;':' ',
-                '[':'',
-                ']':'',
-                '<sub>':'',
-                '</sub>':'',
-            }
-            item_value = replace_all(item_value,replace_dict) # string cleaning
-            
-            item_value = re.sub('<ref>.*?</ref>', '', item_value) # remove wikipedia references
-            item_value = re.sub('<ref .*?/>', '', item_value) # remove wikipedia references
+
+            item_value = re.sub('<ref.*?</ref>', '', item_value) # remove wikipedia references type 1
+            item_value = re.sub('<ref .*?/>', '', item_value)    # remove wikipedia references type 2
+
+            item_value = clean_value(item_value)
 
             result_dict.update({item_name:item_value})
 
@@ -275,26 +300,33 @@ def parse_wiki_template(t):
         elif item_name in section_items:
             if item.templates:  # if not empty
                 section_dict= parse_wiki_template(item.templates[0]) 
-                result_dict.update({item_name:section_dict})
 
+                for section_key, section_value in section_dict.items():
+                    if (section_key in result_dict) and (section_key  !='Dipole'):
+                        raise('reapeated key')
+                    result_dict.update({section_key:section_value})
 
-        elif item_name in ['OtherNames','OtherCompounds']: 
+        elif item_name in ['OtherNames','OtherCompounds','OtherFunction']: 
+
+            item_value = re.sub('<ref.*?</ref>', '', item_value) # remove wikipedia references type 1
+            item_value = re.sub('<ref .*?/>', '', item_value)    # remove wikipedia references type 2
+
             replace_dict={
-                '<br/>':'<br />',
-                '<br>':'<br />',
-                "'":"",
-                '[':'',
-                ']':'',
+                '<br />':'\n',
+                '<br/>':'\n',
+                '<br>':'\n',
+                ";":"\n",
+                ', ':'\n',
             }
             item_value = replace_all(item_value,replace_dict)
             
-            item_values = item_value.split("<br />")
-
-            result_dict.update({item_name:item_values})
+            item_value = clean_value(item_value)
+            result_dict.update({item_name:item_value})
 
 
         else:
-            print(f'Not supported item:  {item_name}    {item_value}')
+            # print(f'Not supported item:  {item_name}    {item_value}')
+
             with open(f'./not_supported.txt', 'a') as the_file:
                 the_file.write(f'Not supported item:\t{item_name} \t{item_value}\r\n')
     return result_dict
@@ -302,101 +334,111 @@ def parse_wiki_template(t):
 
 
 
+def cached_download(wikipedia_title,redirect=False):  # download wikipedia pages or takes them from cache folder
+
+    if redirect:
+        ext='.re.txt'
+    else:
+        ext='.txt'
+
+    if os.path.isfile(f'./cache/{wikipedia_title}.{ext}') :
+
+        with open(f'./cache/{wikipedia_title}.{ext}', "r") as f:
+            wikitext = f.read()
+    else:
+        print(f'downloading {wikipedia_title}')
+
+        url=f'https://en.wikipedia.org/w/index.php?title={wikipedia_title}&action=raw'
+
+        response = requests.get(url)
+
+        response.raise_for_status()
+
+        with open(f'./cache/{wikipedia_title}.{ext}', 'w') as cache_file:
+            cache_file.write(response.text)
+
+        wikitext=response.text
+    return wikitext
+
+
+
+def scrap_substance(substance):
+
+    if not substance:
+        return
+
+    wikipedia_title=substance[:]
+
+    wikitext= cached_download(wikipedia_title)
+
+    
+    if wikitext[:9].upper()=='#REDIRECT':
+        wikipedia_title = re.search('\[\[(.+?)\]\]', wikitext.split('\n')[0]).group(1).strip() # new title after redirect
+        print(f'redirect: {substance} -> {wikipedia_title}')
+
+        wikitext= cached_download(wikipedia_title,redirect=True)
+
+    parsed = wtp.parse(wikitext)
+
+    print(f'exctracting data from wiki page: {wikipedia_title}')
+
+
+    chembox=False
+    for t in parsed.templates:
+        if t.name.strip().lower() in ['chembox','chembox\n<!-- images -->', 'chembox <!-- infobox -->']:
+            chembox=True
+            result_dict = parse_wiki_template(t)
+
+            result_dict['url']='https://en.wikipedia.org/wiki/'+urllib.parse.quote_plus(wikipedia_title)
+            result_dict['substance_name']=wikipedia_title
+
+            all_substances[substance]= result_dict
+
+            break
+    if not chembox:
+        print(f'No chembox: {wikipedia_title}')      
+
+
+def main():
+
+    if not os.path.isdir('./cache/'):
+        os.mkdir('./cache/')
+
+    with open('substances_list_modified.txt') as f:    
+        substances =f.read().splitlines()
+
+    substances = [line for line in substances if line.strip() != ""]  # remove empty substance names (empty lines)
+
+    tasks=[]
+
+    for substance in substances:  
+        scrap_substance(substance)  # get all substances, results will go to `all_substances` dict
+
+    sorted_all_substances=[]
+    for substance in substances:
+        sorted_all_substances.append(all_substances[substance])
+        
+
+    print("saving results as JSON file...")
+    with open('all_substances.json', 'w', encoding='utf8') as json_file:
+        json.dump(sorted_all_substances, json_file, ensure_ascii=False)
+
+
+    print("saving results as XML file...")
+    all_substances_xml = dicttoxml(sorted_all_substances, custom_root='substances', attr_type=False)
+    with open('all_substances.xml', 'wb') as xml_file:
+        xml_file.write(all_substances_xml)
+
+
+    print("saving results as XLSX file...")
+    import pandas as pd
+    df = pd.DataFrame.from_dict(sorted_all_substances)
+    df= df.transpose()
+    df.to_excel('all_substances.xlsx')
 
 
 
 if __name__ == '__main__':
-
-
     
 
-    # df = pd.read_excel('substances_scraping_wikipedia_info.xlsx') # can also index sheet by name or fetch all sheets
-    # substances = df['substances'].tolist()
-
-    with open('substances_list_modified.txt') as f:
-        substances =f.read().splitlines()
-
-
-
-    for substance in substances:
-        
-        if os.path.isfile(f'./substances/{substance}.txt') :
-            continue
-
-        if not substance:
-            continue
-        
-        wikipedia_title=substance[:]
-
-        url=f'https://en.wikipedia.org/w/index.php?title={wikipedia_title}&action=raw'
-        response = requests.get(url)
-
-        if response.status_code== 404:
-            print(f'404: {substance}')
-            with open(f'./substances/{substance}.txt', 'w') as the_file:
-                the_file.write('404')  
-            continue
-
-        if response.text[:9].upper()=='#REDIRECT':
-            wikipedia_title = re.search('\[\[(.+?)\]\]', response.text.split('\n')[0]).group(1).strip() # new title after redirect
-            print(f'redirect: {substance} -> {wikipedia_title}')
-            
-            url=f'https://en.wikipedia.org/w/index.php?title={wikipedia_title}&action=raw'
-            response = requests.get(url)
-
-        with open(f'./substances/{substance}_wikitext.txt', 'w') as the_file:
-            the_file.write(response.text)
-
-        # text= response.text ##
-
-        parsed = wtp.parse(response.text)
-
-        print(substance)
-        print()
-
-        chembox=False
-        for t in parsed.templates:
-            if t.name.strip().lower() in ['chembox','chembox\n<!-- images -->', 'infobox drug' ]:
-                chembox=True
-                result_dict = parse_wiki_template(t)
-                print()
-
-                with open(f'./substances/{substance}.txt', 'w') as the_file:
-                    the_file.write(json.dumps(result_dict))
-
-                break
-        if not chembox:
-            print(f'No chembox: {substance} $$ {wikipedia_title}')        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                
-    #### TODO: dodać usuwanie linków            
-    #### TODO: przeszukać small           
+    main()

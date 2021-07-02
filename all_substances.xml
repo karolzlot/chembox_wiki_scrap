@@ -3414,32 +3414,33 @@ CGA245704</OtherNames>
     <C>7</C>
     <H>6</H>
     <O>2</O>
+    <MolarMassUnit>g/mol</MolarMassUnit>
     <Appearance>Colorless crystalline solid</Appearance>
     <Odor>Faint, pleasant odor</Odor>
-    <Density>1.2659 g/cm^3 (15 °C) 1.0749 g/cm^3 (130 °C)</Density>
+    <Density>1.2659g/cm^3 (15 °C) 1.0749g/cm^3 (130 °C)</Density>
     <MeltingPtC>122</MeltingPtC>
     <BoilingPtC>250</BoilingPtC>
-    <Solubility>1.7 g/L (0 °C) 2.7 g/L (18 °C) 3.44 g/L (25 °C) 5.51 g/L (40 °C) 21.45 g/L (75 °C) 56.31 g/L (100 °C)</Solubility>
+    <Solubility>1.7g/L (0 °C) 2.7g/L (18 °C) 3.44g/L (25 °C) 5.51g/L (40 °C) 21.45g/L (75 °C) 56.31g/L (100 °C)</Solubility>
     <pKa></pKa>
-    <SolubleOther>soluble in acetone, benzene, CCl4, CHCl3, alcohol, ethyl ether, hexane, phenyls, liquid ammonia, acetates</SolubleOther>
-    <Solubility1>30 g/100 g (-18 °C) 32.1 g/100 g (-13 °C) 71.5 g/100 g (23 °C)</Solubility1>
+    <SolubleOther>Soluble in acetone, benzene, CCl4, CHCl3, alcohol, ethyl ether, hexane, phenyls, liquid ammonia, acetates</SolubleOther>
+    <Solubility1>30g/100g (−18 °C) 32.1g/100g (−13 °C) 71.5g/100g (23 °C)</Solubility1>
     <Solvent1>methanol</Solvent1>
-    <Solubility2>25.4 g/100 g (-18 °C) 47.1 g/100 g (15 °C) 52.4 g/100 g (19.2 °C) 55.9 g/100 g (23 °C)</Solubility2>
+    <Solubility2>25.4g/100g (−18 °C) 47.1g/100g (15 °C) 52.4g/100g (19.2 °C) 55.9g/100g (23 °C)</Solubility2>
     <Solvent2>ethanol</Solvent2>
-    <Solubility3>54.2 g/100 g (20 °C)</Solubility3>
+    <Solubility3>54.2g/100g (20 °C)</Solubility3>
     <Solvent3>acetone</Solvent3>
     <RefractIndex>1.5397 (20 °C) 1.504 (132 °C)</RefractIndex>
-    <Viscosity>1.26 mPa (130 °C)</Viscosity>
-    <VaporPressure>0.16 Pa (25 °C) 0.19 kPa (100 °C) 22.6 kPa (200 °C)</VaporPressure>
+    <Viscosity>1.26mPa (130 °C)</Viscosity>
+    <VaporPressure>0.16Pa (25 °C) 0.19kPa (100 °C) 22.6kPa (200 °C)</VaporPressure>
     <LogP>1.87</LogP>
-    <MagSus>-70.28·10^−6 cm^3/mol</MagSus>
+    <MagSus>−70.28·10^−6cm^3/mol</MagSus>
     <CrystalStruct>Monoclinic</CrystalStruct>
-    <MolShape>planar</MolShape>
-    <Dipole>1.72 D in dioxane</Dipole>
-    <DeltaHf>-385.2 kJ/mol</DeltaHf>
-    <DeltaHc>-3228 kJ/mol</DeltaHc>
-    <Entropy>167.6 J/mol·K</Entropy>
-    <HeatCapacity>146.7 J/mol·K</HeatCapacity>
+    <MolShape>Planar</MolShape>
+    <Dipole>1.72D in dioxane</Dipole>
+    <DeltaHf>−385.2kJ/mol</DeltaHf>
+    <DeltaHc>−3228kJ/mol</DeltaHc>
+    <Entropy>167.6J/mol·K</Entropy>
+    <HeatCapacity>146.7J/mol·K</HeatCapacity>
     <ExternalSDS>JT Baker</ExternalSDS>
     <GHSPictograms></GHSPictograms>
     <GHSSignalWord>Danger</GHSSignalWord>
@@ -3451,7 +3452,7 @@ CGA245704</OtherNames>
     <NFPA-R>0</NFPA-R>
     <FlashPtC>121.5</FlashPtC>
     <AutoignitionPtC>571</AutoignitionPtC>
-    <LD50>1700 mg/kg (rat, oral)</LD50>
+    <LD50>1700mg/kg (rat, oral)</LD50>
     <OtherFunction>Hydroxybenzoic acids
 Aminobenzoic acids,
 Nitrobenzoic acids,
@@ -4818,13 +4819,11 @@ lime nitrate</OtherNames>
     <Odor></Odor>
     <Density></Density>
     <Solubility>1.45g/L at ,</Solubility>
-    <SublimationConditions>; 194.7K ()</SublimationConditions>
-    <MeltingPtK>216.6</MeltingPtK>
-    <MeltingPt_notes>(triple point at )</MeltingPt_notes>
+    <SublimationConditions>() at  ()</SublimationConditions>
     <pKa>6.35, 10.33</pKa>
     <RefractIndex>1.00045</RefractIndex>
     <Viscosity></Viscosity>
-    <VaporPressure>()</VaporPressure>
+    <VaporPressure>,  ( ())</VaporPressure>
     <Dipole>0D</Dipole>
     <MagSus>−20.5·10^−6cm^3/mol</MagSus>
     <ThermalConductivity>0.01662W·m^−1·K^−1 ()</ThermalConductivity>
@@ -17682,6 +17681,7 @@ Sodium persulfate</OtherCompounds>
     <Formula>Na2S</Formula>
     <MolarMass>78.0452 g/mol (anhydrous)240.18 g/mol (nonahydrate)</MolarMass>
     <Appearance>colorless, hygroscopic solid</Appearance>
+    <Odor>none</Odor>
     <Solubility>12.4 g/100 mL (0 °C)  18.6 g/100 mL (20 °C)  39 g/100 mL (50 °C)  (hydrolyses)</Solubility>
     <SolubleOther>insoluble in ether  slightly soluble in alcohol</SolubleOther>
     <Density>1.856 g/cm^3 (anhydrous)  1.58 g/cm^3 (pentahydrate)  1.43 g/cm^3 (nonohydrate)</Density>
