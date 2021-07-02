@@ -248,9 +248,9 @@ def parse_wiki_template(t):
             'MeltingPt',
             'PointGroup',
             'ThermalConductivity',
-            'OtherNames',
-            'OtherCompounds',
-            'OtherFunction',
+            # 'OtherNames',
+            # 'OtherCompounds',
+            # 'OtherFunction',
             'PPhrases',
             'HPhrases',
             'GHSPictograms',
@@ -307,6 +307,24 @@ def parse_wiki_template(t):
                     if (section_key in result_dict) and (section_key  !='Dipole'):
                         raise('reapeated key')
                     result_dict.update({section_key:section_value})
+
+        elif item_name in ['OtherNames','OtherCompounds','OtherFunction']: 
+
+            item_value = re.sub('<ref.*?</ref>', '', item_value) # remove wikipedia references type 1
+            item_value = re.sub('<ref .*?/>', '', item_value)    # remove wikipedia references type 2
+
+            replace_dict={
+                '<br />':'\n',
+                '<br/>':'\n',
+                '<br>':'\n',
+                ";":"\n",
+                ', ':'\n',
+            }
+            item_value = replace_all(item_value,replace_dict)
+            
+            item_value = clean_value(item_value)
+            result_dict.update({item_name:item_value})
+
 
         else:
             # print(f'Not supported item:  {item_name}    {item_value}')
@@ -373,6 +391,7 @@ async def scrap_substance(substance):
             result_dict = parse_wiki_template(t)
 
             result_dict['url']='https://en.wikipedia.org/wiki/'+urllib.parse.quote_plus(wikipedia_title)
+            result_dict['substance_name']=wikipedia_title
 
             all_substances[substance]= result_dict
 
