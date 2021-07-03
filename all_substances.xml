@@ -142,7 +142,6 @@ Pentane</OtherCompounds>
     <FlashPtC>49</FlashPtC>
     <AutoignitionPtC>300</AutoignitionPtC>
     <OtherCompounds>Hexane
-
 Pentylamine</OtherCompounds>
   </item>
   <item>
@@ -854,9 +853,9 @@ Diisobutyl ketone</OtherFunction>
     <Name>Pentetic acid</Name>
     <PIN>2,2′,2′′,2′′′-{[(Carboxymethyl)azanediyl]bis(ethane-2,1-diylnitrilo)}tetraacetic acid</PIN>
     <OtherNames>DTPA
-  H5dtpa
- Diethylenetriaminepentaacetic acid
- Penta(carboxymethyl)diethylenetriamine</OtherNames>
+ H5dtpa
+Diethylenetriaminepentaacetic acid
+Penta(carboxymethyl)diethylenetriamine</OtherNames>
     <ChEBI>35739</ChEBI>
     <SMILES>C(CN(CC(=O)O)CC(=O)O)N(CCN(CC(=O)O)CC(=O)O)CC(=O)O</SMILES>
     <UNII>7A314HQM0I</UNII>
@@ -1100,7 +1099,7 @@ Acetylaldehyde</OtherNames>
     <LC50>13,000 ppm (rat), 17,000 ppm (hamster), 20,000 ppm (rat)</LC50>
     <OtherFunction_label>aldehydes</OtherFunction_label>
     <OtherFunction>Formaldehyde
- Propionaldehyde</OtherFunction>
+Propionaldehyde</OtherFunction>
     <OtherCompounds>Ethylene oxide</OtherCompounds>
   </item>
   <item>
@@ -1154,8 +1153,8 @@ N-Phenylethanamide</OtherNames>
     <PIN>Acetic acid</PIN>
     <SystematicName>Ethanoic acid</SystematicName>
     <OtherNames>Vinegar (when dilute)
- Hydrogen acetate
- Methanecarboxylic acid</OtherNames>
+Hydrogen acetate
+Methanecarboxylic acid</OtherNames>
     <Abbreviations>AcOH</Abbreviations>
     <CASNo>64-19-7</CASNo>
     <PubChem>176</PubChem>
@@ -1218,23 +1217,14 @@ N-Phenylethanamide</OtherNames>
     <OtherFunction>Formic acid
 Propionic acid</OtherFunction>
     <OtherCompounds>Acetaldehyde
-
 Acetamide
-
 Acetic anhydride
-
 Acetonitrile
-
 Acetyl chloride
-
 Ethanol
-
 Ethyl acetate
-
 Potassium acetate
-
 Sodium acetate
-
 Thioacetic acid</OtherCompounds>
   </item>
   <item>
@@ -1596,7 +1586,7 @@ Acetyl bromide</OtherCompounds>
 Acrylic aldehyde
 Allyl aldehyde
 Ethylene aldehyde
- Acrylaldehyde</OtherNames>
+Acrylaldehyde</OtherNames>
     <ChEBI>15368</ChEBI>
     <SMILES>O=CC=C</SMILES>
     <UNII>7864XYD3JJ</UNII>
@@ -1643,9 +1633,7 @@ Ethylene aldehyde
     <PPhrases></PPhrases>
     <OtherFunction_label>alkenals</OtherFunction_label>
     <OtherFunction>Crotonaldehyde
-
 cis-3-Hexenal
-
 (E,E)-2,4-Decadienal</OtherFunction>
   </item>
   <item>
@@ -1805,14 +1793,10 @@ acrolein</OtherCompounds>
     <PEL>TWA 20 mppcf (80 mg/m^3/%SiO2) (amorphous)</PEL>
     <OtherFunction_label>diones</OtherFunction_label>
     <OtherFunction>Carbon dioxide
-
 Germanium dioxide
-
 Tin dioxide
-
 Lead dioxide</OtherFunction>
     <OtherCompounds>Silicon monoxide
-
 Silicon sulfide</OtherCompounds>
     <DeltaHf>−911 kJ·mol^−1</DeltaHf>
     <Entropy>42 J·mol^−1·K^−1</Entropy>
@@ -1936,8 +1920,8 @@ hexanediamide</OtherCompounds>
     <url>https://en.wikipedia.org/wiki/1-Naphthol</url>
     <PIN>Naphthalen-1-ol</PIN>
     <OtherNames>1-Hydroxynaphthalene
- 1-Naphthalenol
- α-Naphthol</OtherNames>
+1-Naphthalenol
+α-Naphthol</OtherNames>
     <UNII>2A71EAQ389</UNII>
     <KEGG>C11714</KEGG>
     <InChI>1/C10H8O/c11-10-7-3-5-8-4-1-2-6-9(8)10/h1-7,11H</InChI>
@@ -2087,17 +2071,12 @@ Aluminum trifluoride</OtherNames>
     <PIN>Aluminium hydroxide</PIN>
     <SystematicName>Aluminium(3+) trioxidanide</SystematicName>
     <OtherNames>Aluminic acid
-
 Aluminic hydroxide
-
 Aluminium(III) hydroxide
-
 Aluminium hydroxide
-
 Aluminum trihydroxide
 
 Hydrated alumina
-
 Orthoaluminic acid</OtherNames>
     <InChI>1/Al.3H2O/h;3*1H2/q+3;;;/p-3</InChI>
     <InChIKey>WNROFYMDJYEPJX-DFZHHIFOAJ</InChIKey>
@@ -2147,7 +2126,7 @@ Cake alum
 Filter alum
 Papermakers alum
 Alunogenite
- aluminum salt (3:2)</OtherNames>
+aluminum salt (3:2)</OtherNames>
     <ChemSpiderID>23233</ChemSpiderID>
     <UNII>I7T908772F</UNII>
     <UNII1>TCS9L00G8F</UNII1>
@@ -2195,7 +2174,7 @@ Cake alum
 Filter alum
 Papermakers alum
 Alunogenite
- aluminum salt (3:2)</OtherNames>
+aluminum salt (3:2)</OtherNames>
     <ChemSpiderID>23233</ChemSpiderID>
     <UNII>I7T908772F</UNII>
     <UNII1>TCS9L00G8F</UNII1>
@@ -2238,9 +2217,9 @@ Alunogenite
     <url>https://en.wikipedia.org/wiki/2-Aminopyridine</url>
     <PIN>Pyridin-2-amine</PIN>
     <OtherNames>2-Pyridinamine
- 2-Pyridylamine
- α-Aminopyridine
- α-Pyridylamine</OtherNames>
+2-Pyridylamine
+α-Aminopyridine
+α-Pyridylamine</OtherNames>
     <ChemSpiderID>10008</ChemSpiderID>
     <InChI>1/C5H6N2/c6-5-3-1-2-4-7-5/h1-4H,(H2,6,7)</InChI>
     <InChIKey>ICSNLGPSRYBMBD-UHFFFAOYAM</InChIKey>
@@ -2277,7 +2256,7 @@ Alunogenite
     <url>https://en.wikipedia.org/wiki/3-Aminopyridine</url>
     <PIN>Pyridin-3-amine</PIN>
     <OtherNames>3-Pyridinamine
- 3-Pyridylamine</OtherNames>
+3-Pyridylamine</OtherNames>
     <ChemSpiderID>9615</ChemSpiderID>
     <CASNo>462-08-8</CASNo>
     <UNII>69JE8P2L84</UNII>
@@ -2336,9 +2315,7 @@ dalfampridine (USAN)</OtherNames>
     <IUPACName>Ammonia</IUPACName>
     <SystematicName>Azane</SystematicName>
     <OtherNames>Hydrogen nitride
-
 R-717 (refrigerant)
-
 R717 (refrigerant alternative spelling)</OtherNames>
     <InChI>1/H3N/h1H3</InChI>
     <InChIKey>QGZKDVFQNNGYKY-UHFFFAOYAF</InChIKey>
@@ -2870,7 +2847,7 @@ Nitrobenzene</OtherCompounds>
     <HPhrases></HPhrases>
     <PPhrases></PPhrases>
     <OtherCompounds>quinone,
- anthracene</OtherCompounds>
+anthracene</OtherCompounds>
   </item>
   <item>
     <substance_name>arsine</substance_name>
@@ -2928,9 +2905,9 @@ Arsenic hydride</OtherNames>
     <LCLo></LCLo>
     <OtherFunction_label>hydrides</OtherFunction_label>
     <OtherFunction>Ammonia
- phosphine
- stibine
- bismuthine</OtherFunction>
+phosphine
+stibine
+bismuthine</OtherFunction>
   </item>
   <item>
     <substance_name>atrazine</substance_name>
@@ -2973,9 +2950,9 @@ Arsenic hydride</OtherNames>
     <url>https://en.wikipedia.org/wiki/azodicarbonamide</url>
     <IUPACName>Carbamoyliminourea</IUPACName>
     <OtherNames>Azodicarboxamide
- Azobisformamide
- C,C-Azodi(formamide)
- Diazenedicarboxamide</OtherNames>
+Azobisformamide
+C,C-Azodi(formamide)
+Diazenedicarboxamide</OtherNames>
     <ChemSpiderID>4575589</ChemSpiderID>
     <UNII>56Z28B9C8O</UNII>
     <InChI>1/C2H4N4O2/c3-1(7)5-6-2(4)8/h(H2,3,7)(H2,4,8)/b6-5+</InChI>
@@ -3472,7 +3449,7 @@ Benzamide</OtherCompounds>
     <Name>Benzyl alcohol</Name>
     <PIN>Phenylmethanol</PIN>
     <OtherNames>Phenylcarbinol
- Benzenemethanol</OtherNames>
+Benzenemethanol</OtherNames>
     <UNII>LKG8494WBH</UNII>
     <KEGG>D00077</KEGG>
     <InChI>1/C7H8O/c8-6-7-4-2-1-3-5-7/h1-5,8H,6H2</InChI>
@@ -3574,7 +3551,7 @@ Benzyl chloride</OtherNames>
     <PIN>4,4′-(Propane-2,2-diyl)diphenol</PIN>
     <OtherNames>BPA
 p,p-Isopropylidenebisphenol,
- 2,2-Bis(4-hydroxyphenyl)propane</OtherNames>
+2,2-Bis(4-hydroxyphenyl)propane</OtherNames>
     <IUPHAR_ligand>7865</IUPHAR_ligand>
     <ChEBI>33216</ChEBI>
     <DrugBank>DB06973</DrugBank>
@@ -3730,7 +3707,6 @@ diboron trioxide
 boron sesquioxide
 boric oxide
 boria
-
 Boric acid anhydride</OtherNames>
     <ChemSpiderID>452485</ChemSpiderID>
     <InChI>1/B2O3/c3-1-5-2-4</InChI>
@@ -3968,7 +3944,7 @@ Trifluoroborane</OtherNames>
     <PIN>Butane</PIN>
     <SystematicName>Tetracarbane (never recommended)</SystematicName>
     <OtherNames>Butyl hydride
- Refrigerant 3-11-0</OtherNames>
+Refrigerant 3-11-0</OtherNames>
     <CASNo>106-97-8</CASNo>
     <PubChem>7843</PubChem>
     <ChemSpiderID>7555</ChemSpiderID>
@@ -4135,8 +4111,8 @@ Butile</OtherNames>
     <LCLo>14,079 ppm (cat, 72 min)13,872 ppm (guinea pig, 4 hr)</LCLo>
     <OtherFunction_label>acetates</OtherFunction_label>
     <OtherFunction>Ethyl acetate
- Propyl acetate
- Amyl acetate</OtherFunction>
+Propyl acetate
+Amyl acetate</OtherFunction>
     <OtherCompounds>Butanol</OtherCompounds>
   </item>
   <item>
@@ -4547,13 +4523,13 @@ Calcium dicarbide</OtherNames>
     <Name>Calcium carbonate</Name>
     <IUPACName>Calcium carbonate</IUPACName>
     <OtherNames>calcite
- aragonite
- chalk
- Lime (material)
- Limestone
- marble
- oyster
- pearl</OtherNames>
+aragonite
+chalk
+Lime (material)
+Limestone
+marble
+oyster
+pearl</OtherNames>
     <UNII>H0G9379FGK</UNII>
     <ChEMBL>1200539</ChEMBL>
     <DrugBank>DB06724</DrugBank>
@@ -4606,7 +4582,7 @@ Calcium dicarbide</OtherNames>
     <Name>Calcium chloride</Name>
     <IUPACName>Calcium chloride</IUPACName>
     <OtherNames>Neutral calcium chloride
- calcium(II) chloride
+calcium(II) chloride
 calcium dichloride
 E509</OtherNames>
     <ChemSpiderID>23237</ChemSpiderID>
@@ -4776,11 +4752,11 @@ lime nitrate</OtherNames>
     <substance_name>carbon black</substance_name>
     <url>https://en.wikipedia.org/wiki/carbon+black</url>
     <OtherNames>Acetylene black
- Channel black
- Furnace black
- Lamp black
- Thermal black
- C.I. Pigment Black 6</OtherNames>
+Channel black
+Furnace black
+Lamp black
+Thermal black
+C.I. Pigment Black 6</OtherNames>
     <CASNo>1333-86-4</CASNo>
     <UNII>4XYU5U00C4</UNII>
     <EC_number>215-609-9</EC_number>
@@ -4932,7 +4908,6 @@ carboneum oxgenisatum
 Carbate
 Carbonyl
 Kohlenoxyd
-
 Water gas
 Flue gas
 carbonic inflammable air
@@ -5096,8 +5071,8 @@ Tetraiodomethane</OtherCompounds>
     <substance_name>carboxymethyl cellulose</substance_name>
     <url>https://en.wikipedia.org/wiki/carboxymethyl+cellulose</url>
     <OtherNames>Carboxymethylcellulose
- carmellose
- E466</OtherNames>
+carmellose
+E466</OtherNames>
     <CASNo>9000-11-7</CASNo>
     <UNII>05JZI7B19X</UNII>
     <ChEMBL>1909054</ChEMBL>
@@ -5500,8 +5475,8 @@ Methylchloromethyl ether</OtherNames>
     <url>https://en.wikipedia.org/wiki/3-Nitrochlorobenzene</url>
     <PIN>1-Chloro-3-nitrobenzene</PIN>
     <OtherNames>m-Nitrochlorobenzene
- m-Chloronitrobenzene
- 3-Chloronitrobenzene</OtherNames>
+m-Chloronitrobenzene
+3-Chloronitrobenzene</OtherNames>
     <CASNo>121-73-3</CASNo>
     <UNII>8XSA3GF8O1</UNII>
     <EINECS>204-496-1</EINECS>
@@ -5702,7 +5677,6 @@ Aminil</OtherNames>
     <PPhrases></PPhrases>
     <OtherFunction_label>nitriles; organochlorides</OtherFunction_label>
     <OtherFunction>benzonitrile
-
 hexachlorobenzene
 dichlorobenzene
 chlorobenzene</OtherFunction>
@@ -5795,7 +5769,7 @@ Eskolaite</OtherNames>
     <Name>Chromium(IV) oxide</Name>
     <IUPACName>Chromium(IV) oxide, Chromium dioxide</IUPACName>
     <OtherNames>Crolyn 
- magtrieve</OtherNames>
+magtrieve</OtherNames>
     <ChemSpiderID>21171202</ChemSpiderID>
     <InChI>1/Cr.2O/rCrO2/c2-1-3</InChI>
     <ChEBI>48263</ChEBI>
@@ -6225,8 +6199,8 @@ Copper Sulphate pentahydrate</OtherNames>
     <substance_name>Copper(I) sulfate</substance_name>
     <url>https://en.wikipedia.org/wiki/Copper%28I%29+sulfate</url>
     <OtherNames>Copper(I) sulphate
- Cuprous sulfate
- Dicopper sulfate</OtherNames>
+Cuprous sulfate
+Dicopper sulfate</OtherNames>
     <CASNo>17599-81-4</CASNo>
     <PubChem>134737</PubChem>
     <SMILES>[O-]S(=O)(=O)[O-].[Cu+].[Cu+]</SMILES>
@@ -6760,16 +6734,16 @@ BF3</OtherFunction>
     <url>https://en.wikipedia.org/wiki/dichloromethane</url>
     <PIN>Dichloromethane</PIN>
     <OtherNames>Methylene chloride
- Methylene dichloride
+Methylene dichloride
 Solmethine
- Narkotil
- Solaesthin
- Di-clo
- Refrigerant-30
- Freon-30
- R-30
- DCM
- MDC</OtherNames>
+Narkotil
+Solaesthin
+Di-clo
+Refrigerant-30
+Freon-30
+R-30
+DCM
+MDC</OtherNames>
     <ChemSpiderID>6104</ChemSpiderID>
     <UNII>588X2YUY0A</UNII>
     <InChIKey>YMWUJEATGCHHMB-UHFFFAOYAG</InChIKey>
@@ -6849,7 +6823,7 @@ chloroorpropenyl chloride
 1,3-dichloropropylene
 3-D
 DCP
- 3-Chloroallyl chloride</OtherNames>
+3-Chloroallyl chloride</OtherNames>
     <ChemSpiderID>23117</ChemSpiderID>
     <InChIKey>UOORRWUZONOOLO-OWOJBTEDBJ</InChIKey>
     <StdInChI>1S/C3H4Cl2/c4-2-1-3-5/h1-2H,3H2/b2-1+</StdInChI>
@@ -6950,16 +6924,16 @@ DCP
     <Name>Diethyl ether</Name>
     <PIN>Ethoxyethane</PIN>
     <OtherNames>Diethyl ether
- Dether
- Ethyl ether
- Ethyl oxide
- 3-Oxapentane
- Ethoxyethane
- Diethyl oxide
- Solvent ether
- Sulfuric ether
- Vitriolic ether
- Sweet oil of vitriol</OtherNames>
+Dether
+Ethyl ether
+Ethyl oxide
+3-Oxapentane
+Ethoxyethane
+Diethyl oxide
+Solvent ether
+Sulfuric ether
+Vitriolic ether
+Sweet oil of vitriol</OtherNames>
     <ChEBI>35702</ChEBI>
     <Beilstein>1696894</Beilstein>
     <Gmelin>25444</Gmelin>
@@ -7129,7 +7103,7 @@ Demeon
 Dimethyl oxide
 Dymel A
 Methyl ether
- Methyl Oxide
+Methyl Oxide
 Mether
 Wood ether</OtherNames>
     <Abbreviations>DME</Abbreviations>
@@ -7179,10 +7153,8 @@ Wood ether</OtherNames>
     <AutoignitionPtC>350</AutoignitionPtC>
     <OtherFunction_label>ethers</OtherFunction_label>
     <OtherFunction>Diethyl ether
-
 Polyethylene glycol</OtherFunction>
     <OtherCompounds>Ethanol
-
 Methanol</OtherCompounds>
   </item>
   <item>
@@ -7214,11 +7186,11 @@ Methanol</OtherCompounds>
     <url>https://en.wikipedia.org/wiki/dimethyl+sulfate</url>
     <PIN>Dimethyl sulfate</PIN>
     <OtherNames>Dimethyl sulphate
- Sulfuric acid dimethyl ester
- Me2SO4
- DMSO4
- Dimethyl ester of sulfuric acid
- Methyl sulfate</OtherNames>
+Sulfuric acid dimethyl ester
+Me2SO4
+DMSO4
+Dimethyl ester of sulfuric acid
+Methyl sulfate</OtherNames>
     <ChemSpiderID>6252</ChemSpiderID>
     <InChI>1/C2H6O4S/c1-5-7(3,4)6-2/h1-2H3</InChI>
     <InChIKey>VAYGXNSJCAHWJZ-UHFFFAOYAK</InChIKey>
@@ -7309,8 +7281,8 @@ Dimethyl sulfide</OtherNames>
 Dimethyl selenide
 Dimethyl telluride</OtherFunction>
     <OtherCompounds>Dimethyl ether
- Dimethyl sulfoxide
- Dimethyl sulfone</OtherCompounds>
+Dimethyl sulfoxide
+Dimethyl sulfone</OtherCompounds>
   </item>
   <item>
     <substance_name>dimethyl sulfoxide</substance_name>
@@ -7319,7 +7291,6 @@ Dimethyl telluride</OtherFunction>
     <SystematicName>(Methanesulfinyl)methane (substitutive)
 Dimethyl(oxido)sulfur (additive)</SystematicName>
     <OtherNames>Methylsulfinylmethane
-
 Methyl sulfoxide</OtherNames>
     <Abbreviations>DMSO, Me2SO</Abbreviations>
     <CASNo>67-68-5</CASNo>
@@ -7719,8 +7690,8 @@ Phenoxybenzene</OtherNames>
     <substance_name>Di(propylene glycol) methyl ether</substance_name>
     <url>https://en.wikipedia.org/wiki/Di%28propylene+glycol%29+methyl+ether</url>
     <OtherNames>Dipropylene glycol monomethyl ether
- Dipropyleneglycol methyl ether
- DPGME</OtherNames>
+Dipropyleneglycol methyl ether
+DPGME</OtherNames>
     <CASNo>34590-94-8</CASNo>
     <CASNo_Comment>(mixture of isomers)</CASNo_Comment>
     <UNII>RQ1X8FMQ9N</UNII>
@@ -8007,7 +7978,7 @@ erbia</OtherNames>
     <url>https://en.wikipedia.org/wiki/Vinyl+neodecanoate</url>
     <PIN>Ethenyl 7,7-dimethyloctanoate</PIN>
     <OtherNames>Neodecanoic acid vinyl ester
- VeoVa 10</OtherNames>
+VeoVa 10</OtherNames>
     <CASNo>51000-52-3</CASNo>
     <UNII>9NDY01YYPT</UNII>
     <EC_number>256-905-8</EC_number>
@@ -8149,9 +8120,9 @@ erbia</OtherNames>
     <Name>Ethylbenzene</Name>
     <IUPACName>Ethylbenzene</IUPACName>
     <OtherNames>Ethylbenzol
- Phenylethane
- alpha-Methyltoluene
- EB</OtherNames>
+Phenylethane
+alpha-Methyltoluene
+EB</OtherNames>
     <Abbreviations>EB</Abbreviations>
     <DrugBank>DB01722</DrugBank>
     <ChEBI>16101</ChEBI>
@@ -8353,7 +8324,6 @@ polystyrene</OtherCompounds>
     <OtherNames>Ethylene dichloride
 Ethylene chloride
 1,2-DCE
-
 DCE
 Ethane dichloride
 Dutch liquid
@@ -8632,8 +8602,8 @@ Epoxide</OtherNames>
     <IDLH>Ca [800ppm]</IDLH>
     <LC50>836ppm (mouse, 4hr) 4000ppm (rat, 4hr) 800ppm (rat, 4hr)819ppm (guinea pig, 4hr)1460ppm (rat, 4hr)835ppm (mouse, 4hr)960ppm (dog, 4hr)</LC50>
     <OtherFunction>Aziridine,
- Thiirane,
- Borirane</OtherFunction>
+Thiirane,
+Borirane</OtherFunction>
     <OtherFunction_label>heterocycles</OtherFunction_label>
   </item>
   <item>
@@ -8880,23 +8850,14 @@ Carbonyl hydride</OtherNames>
     <LCLo>333 ppm (cat, 2 h)</LCLo>
     <OtherFunction_label>aldehydes</OtherFunction_label>
     <OtherFunction>Acetaldehyde
-
 Butyraldehyde
-
 Decanal
-
 Heptanal
-
 Hexanal
-
 Nonanal
-
 Octadecanal
-
 Octanal
-
 Pentanal
-
 Propionaldehyde</OtherFunction>
     <OtherCompounds>methanol
 formic acid</OtherCompounds>
@@ -8908,12 +8869,12 @@ formic acid</OtherCompounds>
     <PIN>Formic acid</PIN>
     <SystematicName>Methanoic acid</SystematicName>
     <OtherNames>Carbonous acid
- Formylic acid
- Hydrogen carboxylic acid
- Hydroxy(oxo)methane
- Metacarbonoic acid
- Oxocarbinic acid
- Oxomethanol</OtherNames>
+Formylic acid
+Hydrogen carboxylic acid
+Hydroxy(oxo)methane
+Metacarbonoic acid
+Oxocarbinic acid
+Oxomethanol</OtherNames>
     <DrugBank>DB01942</DrugBank>
     <SMILES>O=CO</SMILES>
     <UNII>0YIW783RG1</UNII>
@@ -8978,7 +8939,7 @@ Methanol</OtherCompounds>
     <substance_name>fosetyl-Al</substance_name>
     <url>https://en.wikipedia.org/wiki/fosetyl-Al</url>
     <OtherNames>Fosetyl-aluminum
- Aluminum tris(ethyl phosphite)
+Aluminum tris(ethyl phosphite)
 Aliette
 Fullstop</OtherNames>
     <CASNo>39148-24-8</CASNo>
@@ -9059,10 +9020,9 @@ gadolinium trioxide</OtherNames>
     <url>https://en.wikipedia.org/wiki/hydrazine</url>
     <SystematicName>Hydrazine</SystematicName>
     <OtherNames>Diamine
-
 Diazane
- Tetrahydridodinitrogen (N—N)
- diamidogen</OtherNames>
+Tetrahydridodinitrogen (N—N)
+diamidogen</OtherNames>
     <CASNo>302-01-2</CASNo>
     <PubChem>9321</PubChem>
     <ChemSpiderID>8960</ChemSpiderID>
@@ -9364,7 +9324,6 @@ UN 2193</OtherNames>
     <OtherNames>Bis(trimethylsilyl)azane
 Bis(trimethylsilyl)amine
 1,1,1,3,3,3-Hexamethyldisilazane
-
 Hexamethyldisilazane</OtherNames>
     <Abbreviations>HMDS</Abbreviations>
     <CASNo>999-97-3</CASNo>
@@ -9435,23 +9394,14 @@ Holmia</OtherNames>
     <OtherAnions>Holmium(III) chloride</OtherAnions>
     <OtherCations>Dysprosium(III) oxideErbium(III) oxide</OtherCations>
     <OtherCompounds>Bismuth(III) oxide
-
 Europium(III) oxide
-
 Gold(III) oxide
-
 Lanthanum(III) oxide
-
 Lutetium(III) oxide
-
 Praseodymium(III) oxide
-
 Promethium(III) oxide
-
 Terbium(III) oxide
-
 Thallium(III) oxide
-
 Thulium(III) oxide</OtherCompounds>
   </item>
   <item>
@@ -9597,7 +9547,7 @@ Thulium(III) oxide</OtherCompounds>
     <OtherAnions>Hydrogen chlorideHydrogen bromideHydrogen iodideHydrogen astatide</OtherAnions>
     <OtherCations>Sodium fluoridePotassium fluorideRubidium fluorideCaesium fluoride</OtherCations>
     <OtherCompounds>Water
- Ammonia</OtherCompounds>
+Ammonia</OtherCompounds>
   </item>
   <item>
     <substance_name>hydrogen peroxide</substance_name>
@@ -9860,7 +9810,6 @@ Nitrinous acid</OtherNames>
 Hydroxylammonium nitrate
 Hydroxylammonium sulfate</OtherFunction>
     <OtherCompounds>Ammonia
-
 Hydrazine</OtherCompounds>
   </item>
   <item>
@@ -9985,7 +9934,7 @@ Glyoxaline (archaic)</OtherNames>
     <Name>Iron(II) sulfate</Name>
     <IUPACName>Iron(II) sulfate</IUPACName>
     <OtherNames>Iron(II) sulphate
- Ferrous sulfate
+Ferrous sulfate
 Green vitriol
 Iron vitriol
 Copperas
@@ -11298,7 +11247,7 @@ MSA</OtherNames>
     <PIN>Methanol</PIN>
     <OtherNames>Carbinol
 Columbian spirits
- Hydroxymethane
+Hydroxymethane
 MeOH
 Methyl alcohol
 Methyl hydroxide
@@ -11410,8 +11359,8 @@ Ethanol</OtherCompounds>
     <ExploLimits>3.1%-16%</ExploLimits>
     <LCLo>11,039 ppm (mouse, 4 hr)21,753 ppm (cat, 1 hr)32,000 ppm (rat, 4 hr)</LCLo>
     <OtherFunction>Methyl formate
- Ethyl acetate
- Ethyl formate
+Ethyl acetate
+Ethyl formate
 Methyl fluoroacetate</OtherFunction>
     <OtherFunction_label>esters</OtherFunction_label>
   </item>
@@ -11508,8 +11457,8 @@ Curithane 103</OtherNames>
     <LC50></LC50>
     <OtherFunction_label>ketones</OtherFunction_label>
     <OtherFunction>Acetone
- 3-pentanone
- 3-methylbutanone</OtherFunction>
+3-pentanone
+3-methylbutanone</OtherFunction>
   </item>
   <item>
     <substance_name>methyl formate</substance_name>
@@ -11611,12 +11560,12 @@ Curithane 103</OtherNames>
     <Name>Methyl tert-butyl ether</Name>
     <PIN>2-Methoxy-2-methylpropane</PIN>
     <OtherNames>Methyl tertiary-butyl ether
- Methyl tert-butyl ether
- Methyl t-butyl ether
- MTBE
- tert-Butyl methyl ether
- tBME
- tert-BuOMe</OtherNames>
+Methyl tert-butyl ether
+Methyl t-butyl ether
+MTBE
+tert-Butyl methyl ether
+tBME
+tert-BuOMe</OtherNames>
     <ChemSpiderID>14672</ChemSpiderID>
     <PubChem>15413</PubChem>
     <KEGG>C11344</KEGG>
@@ -12221,8 +12170,8 @@ Neodymium sesquioxide</OtherNames>
     <url>https://en.wikipedia.org/wiki/Aluminium+nitrate</url>
     <IUPACName>Aluminium nitrate</IUPACName>
     <OtherNames>Nitric  Aluminum salt 
- aluminum nitrate 
- aluminium(III) nitrate</OtherNames>
+aluminum nitrate 
+aluminium(III) nitrate</OtherNames>
     <ChemSpiderID>24267</ChemSpiderID>
     <InChI>1/Al.3NO3/c;3*2-1(3)4/q+3;3*-1</InChI>
     <SMILES>[Al+3].O=[N+]([O-])[O-].[O-][N+]([O-])=O.[O-][N+]([O-])=O</SMILES>
@@ -12420,8 +12369,8 @@ Potassium chloride</OtherCompounds>
     <Name>Silver nitrate</Name>
     <IUPACName>Silver nitrate</IUPACName>
     <OtherNames>Nitric acid silver(1+) salt 
- Lapis infernalis 
- Argentous nitrate</OtherNames>
+Lapis infernalis 
+Argentous nitrate</OtherNames>
     <SystematicName>Silver(I) nitrate</SystematicName>
     <ChemSpiderID>22878</ChemSpiderID>
     <ChEMBL>177367</ChEMBL>
@@ -12485,7 +12434,6 @@ Potassium chloride</OtherCompounds>
     <url>https://en.wikipedia.org/wiki/Barium+nitrate</url>
     <Name>Barium nitrate</Name>
     <OtherNames>Barium dinitrate,
-
 barium salt</OtherNames>
     <ChemSpiderID>23184</ChemSpiderID>
     <InChI>1/Ba.2NO2/c;2*2-1(3)4/q+2;2*-1</InChI>
@@ -12945,17 +12893,11 @@ Nitrogen(II) oxide</OtherNames>
     <LCLo>320 ppm (mouse)</LCLo>
     <OtherFunction_label>nitrogen oxides</OtherFunction_label>
     <OtherFunction>Dinitrogen pentoxide
-
 Dinitrogen tetroxide
-
 Dinitrogen trioxide
-
 Nitrogen dioxide
-
 Nitrous oxide
-
 Nitroxyl (reduced form)
-
 Hydroxylamine (hydrogenated form)</OtherFunction>
   </item>
   <item>
@@ -13061,16 +13003,12 @@ deutoxide of nitrogen</OtherNames>
     <LCLo>64ppm (dog, 8 h)64ppm (monkey, 8 h)</LCLo>
     <OtherFunction_label>nitrogen oxides</OtherFunction_label>
     <OtherFunction>Dinitrogen pentoxide
-
 Dinitrogen tetroxide
-
 Dinitrogen trioxide
-
 Nitric oxide
-
 Nitrous oxide</OtherFunction>
     <OtherCompounds>Chlorine dioxide 
- Carbon dioxide</OtherCompounds>
+Carbon dioxide</OtherCompounds>
   </item>
   <item>
     <substance_name>nitrous oxide</substance_name>
@@ -13390,7 +13328,7 @@ MPI Milestab 81</OtherNames>
     <Name>Ozone</Name>
     <IUPACName>Ozone</IUPACName>
     <OtherNames>2λ^4-trioxidiene
- catena-trioxygen</OtherNames>
+catena-trioxygen</OtherNames>
     <SystematicName>Trioxygen</SystematicName>
     <IUPHAR_ligand>6297</IUPHAR_ligand>
     <CASNo>10028-15-6</CASNo>
@@ -13573,7 +13511,7 @@ PNP</OtherNames>
     <Name>4-Nitrotoluene</Name>
     <PIN>1-Methyl-4-nitrobenzene</PIN>
     <OtherNames>p-nitrotoluene 
- p-mononitrotoluene</OtherNames>
+p-mononitrotoluene</OtherNames>
     <CASNo>99-99-0</CASNo>
     <UNII>E88IMG14EX</UNII>
     <PubChem>7473</PubChem>
@@ -15043,9 +14981,9 @@ Potassium chloride</OtherCompounds>
     <url>https://en.wikipedia.org/wiki/potassium+perchlorate</url>
     <Name>Potassium perchlorate</Name>
     <OtherNames>Potassium chlorate(VII)
-  Perchloric acid
+ Perchloric acid
 potassium salt
- peroidin</OtherNames>
+peroidin</OtherNames>
     <ChemSpiderID>22913</ChemSpiderID>
     <ChEMBL>1200696</ChEMBL>
     <UNII>42255P5X4D</UNII>
@@ -15100,7 +15038,7 @@ potassium salt
 Chameleon mineral
 Condys crystals
 Permanganate of potash 
- Hypermangan</OtherNames>
+Hypermangan</OtherNames>
     <CASNo>7722-64-7</CASNo>
     <PubChem>516875</PubChem>
     <ChemSpiderID>22810</ChemSpiderID>
@@ -15433,15 +15371,15 @@ C3:0 (Lipid numbers)</OtherNames>
     <REL>TWA 10 ppm (30 mg/m^3) ST 15 ppm (45 mg/m^3)</REL>
     <OtherFunction_label>Carboxylic acids</OtherFunction_label>
     <OtherFunction>Acetic acid
- Lactic acid
- 3-Hydroxypropionic acid
- Tartronic acid
- Acrylic acid
- Butyric acid</OtherFunction>
+Lactic acid
+3-Hydroxypropionic acid
+Tartronic acid
+Acrylic acid
+Butyric acid</OtherFunction>
     <OtherCompounds>1-Propanol
- Propionaldehyde
- Sodium propionate
- Propionic anhydride</OtherCompounds>
+Propionaldehyde
+Sodium propionate
+Propionic anhydride</OtherCompounds>
   </item>
   <item>
     <substance_name>propylamine</substance_name>
@@ -15827,7 +15765,7 @@ Norflurane</OtherNames>
     <OtherFunction>Difluoromethane
 Pentafluoroethane</OtherFunction>
     <OtherCompounds>2-Chloro-
- 1,1,1,2-tetrafluoroethane
+1,1,1,2-tetrafluoroethane
 1,1,1-Trichloroethane</OtherCompounds>
   </item>
   <item>
@@ -15883,7 +15821,7 @@ Benzoic acid,
 Phenol
 Aspirin,
 4-Hydroxybenzoic acid,
- Magnesium salicylate,
+Magnesium salicylate,
 Choline salicylate,
 Bismuth subsalicylate,
 Sulfosalicylic acid</OtherCompounds>
@@ -15935,7 +15873,7 @@ Sulfosalicylic acid</OtherCompounds>
     <url>https://en.wikipedia.org/wiki/silicon+tetrachloride</url>
     <IUPACName>Tetrachlorosilane</IUPACName>
     <OtherNames>Silicon tetrachloride 
- Tetrachlorosilane</OtherNames>
+Tetrachlorosilane</OtherNames>
     <ChemSpiderID>23201</ChemSpiderID>
     <StdInChI>1S/Cl4Si/c1-5(2,3)4</StdInChI>
     <StdInChIKey>FDNAPBUWERUEDA-UHFFFAOYSA-N</StdInChIKey>
@@ -16147,7 +16085,7 @@ sodium trioxocarbonate</OtherNames>
     <OtherAnions>Sodium bicarbonate</OtherAnions>
     <OtherCations>Lithium carbonate Potassium carbonateRubidium carbonate Caesium carbonate</OtherCations>
     <OtherCompounds>Sodium sesquicarbonate
- Sodium percarbonate</OtherCompounds>
+Sodium percarbonate</OtherCompounds>
   </item>
   <item>
     <substance_name>Sodium carbonate</substance_name>
@@ -16224,7 +16162,7 @@ sodium trioxocarbonate</OtherNames>
     <OtherAnions>Sodium bicarbonate</OtherAnions>
     <OtherCations>Lithium carbonate Potassium carbonateRubidium carbonate Caesium carbonate</OtherCations>
     <OtherCompounds>Sodium sesquicarbonate
- Sodium percarbonate</OtherCompounds>
+Sodium percarbonate</OtherCompounds>
   </item>
   <item>
     <substance_name>sodium</substance_name>
@@ -16494,8 +16432,8 @@ PBS-4 (tetra)</OtherNames>
     <url>https://en.wikipedia.org/wiki/Disodium+octaborate+tetrahydrate</url>
     <Name>Disodium octaborate tetrahydrate</Name>
     <OtherNames>Aquabor /  Boron sodium oxide
-  Sodium octaborate
- Tim-bor insecticide
+ Sodium octaborate
+Tim-bor insecticide
 Polybor</OtherNames>
     <CASNo>12280-03-4</CASNo>
     <PubChem>90478478</PubChem>
@@ -17044,13 +16982,9 @@ Sodium hydrogen sulfide</OtherNames>
     <substance_name>sodium hydroxide</substance_name>
     <url>https://en.wikipedia.org/wiki/sodium+hydroxide</url>
     <OtherNames>Caustic soda
-
 Lye
-
 Ascarite
-
 White caustic
-
 Sodium hydrate</OtherNames>
     <IUPACName>Sodium hydroxide</IUPACName>
     <CASNo>1310-73-2</CASNo>
@@ -17499,9 +17433,9 @@ sodium salt</OtherNames>
     <url>https://en.wikipedia.org/wiki/sodium+persulfate</url>
     <Name>Sodium persulfate</Name>
     <OtherNames>Sodium peroxodisulfate
- Sodium peroxodisulphate
- Sodium peroxydisulfate
- Sodium peroxydisulphate</OtherNames>
+Sodium peroxodisulphate
+Sodium peroxydisulfate
+Sodium peroxydisulphate</OtherNames>
     <ChemSpiderID>56406</ChemSpiderID>
     <ChEMBL>502764</ChEMBL>
     <InChI>1/2Na.H2O8S2/c;;1-9(2,3)7-8-10(4,5)6/h;;(H,1,2,3)(H,4,5,6)/q2*+1;/p-2</InChI>
@@ -17819,7 +17753,7 @@ NaBF4</OtherNames>
     <OtherAnions>Sodium cyanoborohydrideSodium hydrideSodium borateBoraxSodium aluminum hydride</OtherAnions>
     <OtherCations>Lithium borohydride</OtherCations>
     <OtherCompounds>Lithium aluminium hydride
- Sodium triacetoxyborohydride</OtherCompounds>
+Sodium triacetoxyborohydride</OtherCompounds>
   </item>
   <item>
     <substance_name>Calcium carbonate</substance_name>
@@ -17827,13 +17761,13 @@ NaBF4</OtherNames>
     <Name>Calcium carbonate</Name>
     <IUPACName>Calcium carbonate</IUPACName>
     <OtherNames>calcite
- aragonite
- chalk
- Lime (material)
- Limestone
- marble
- oyster
- pearl</OtherNames>
+aragonite
+chalk
+Lime (material)
+Limestone
+marble
+oyster
+pearl</OtherNames>
     <UNII>H0G9379FGK</UNII>
     <ChEMBL>1200539</ChEMBL>
     <DrugBank>DB06724</DrugBank>
@@ -18104,7 +18038,6 @@ Disulfur dibromide</OtherCompounds>
     <url>https://en.wikipedia.org/wiki/sulfur+dioxide</url>
     <IUPACName>Sulfur dioxide</IUPACName>
     <OtherNames>Sulfurous anhydride
-
 Sulfur(IV) oxide</OtherNames>
     <CASNo>7446-09-5</CASNo>
     <PubChem>1119</PubChem>
@@ -18158,11 +18091,8 @@ Sulfur(IV) oxide</OtherNames>
     <OtherFunction>Sulfur monoxide
 Sulfur trioxide</OtherFunction>
     <OtherCompounds>Ozone
-
 Selenium dioxide
-
 Sulfurous acid
-
 Tellurium dioxide</OtherCompounds>
   </item>
   <item>
@@ -18171,11 +18101,8 @@ Tellurium dioxide</OtherCompounds>
     <IUPACName>Sulfur hexafluoride</IUPACName>
     <SystematicName>Hexafluoro-λ^6-sulfane</SystematicName>
     <OtherNames>Elagas
-
 Esaflon
-
 Sulfur(VI) fluoride
-
 Sulfuric fluoride</OtherNames>
     <CASNo>2551-62-4</CASNo>
     <PubChem>17358</PubChem>
@@ -18225,12 +18152,9 @@ Sulfuric fluoride</OtherNames>
     <REL>TWA 1000 ppm (6000 mg/m^3)</REL>
     <OtherFunction_label>sulfur fluorides</OtherFunction_label>
     <OtherFunction>Disulfur decafluoride
-
 Sulfur tetrafluoride</OtherFunction>
     <OtherCompounds>Selenium hexafluoride
-
 Sulfuryl fluoride
-
 Tellurium hexafluoride
 Polonium hexafluoride</OtherCompounds>
   </item>
@@ -18297,7 +18221,6 @@ Sulfur dioxide</OtherFunction>
     <url>https://en.wikipedia.org/wiki/sulfuric+acid</url>
     <IUPACName>Sulfuric acid</IUPACName>
     <OtherNames>Oil of vitriol
-
 Hydrogen sulfate</OtherNames>
     <ChemSpiderID>1086</ChemSpiderID>
     <UNII>O40UQP6WCF</UNII>
@@ -18577,9 +18500,9 @@ terbium sesquioxide</OtherNames>
     <Name>Tetrachloroethylene</Name>
     <PIN>Tetrachloroethene</PIN>
     <OtherNames>Perchloroethene
- perchloroethylene
- perc
- PCE</OtherNames>
+perchloroethylene
+perc
+PCE</OtherNames>
     <ChEBI>17300</ChEBI>
     <SMILES>ClC(Cl)=C(Cl)Cl</SMILES>
     <ChemSpiderID>13837281</ChemSpiderID>
@@ -18630,11 +18553,11 @@ Tetrachloroethane</OtherCompounds>
     <url>https://en.wikipedia.org/wiki/tetraethyl+orthosilicate</url>
     <IUPACName>tetraethoxysilane</IUPACName>
     <OtherNames>tetraethyl orthosilicate
- ethyl silicate
- silicic acid tetraethyl ester
- silicon ethoxide
- TEOS
- tetraethyl silicate</OtherNames>
+ethyl silicate
+silicic acid tetraethyl ester
+silicon ethoxide
+TEOS
+tetraethyl silicate</OtherNames>
     <ChemSpiderID>6270</ChemSpiderID>
     <InChI>1/C8H20O4Si/c1-5-9-13(10-6-2,11-7-3)12-8-4/h5-8H2,1-4H3</InChI>
     <InChIKey>BOTDANWDWHJENH-UHFFFAOYAS</InChIKey>
@@ -18708,7 +18631,7 @@ Norflurane</OtherNames>
     <OtherFunction>Difluoromethane
 Pentafluoroethane</OtherFunction>
     <OtherCompounds>2-Chloro-
- 1,1,1,2-tetrafluoroethane
+1,1,1,2-tetrafluoroethane
 1,1,1-Trichloroethane</OtherCompounds>
   </item>
   <item>
@@ -19062,7 +18985,6 @@ Tribromoacetic acid</OtherCompounds>
     <Name>Boron trichloride</Name>
     <IUPACName>Boron trichloride</IUPACName>
     <OtherNames>Boron(III) chloride
-
 Trichloroborane</OtherNames>
     <ChemSpiderID>23480</ChemSpiderID>
     <InChI>1/B.3ClH/h;3*1H/q+3;;;/p-3</InChI>
@@ -19111,16 +19033,16 @@ Carbon tetrachloride</OtherCompounds>
     <url>https://en.wikipedia.org/wiki/trichloroethylene</url>
     <PIN>1,1,2-Trichloroethene</PIN>
     <OtherNames>1,1-Dichloro-2-Chloroethylene
- 1-Chloro-2,2-Dichloroethylene
- Acetylene Trichloride
- TCE
- Trethylene
- Triclene
- Trico
- Tri
- Trimar
- Trilene
- HCC-1120</OtherNames>
+1-Chloro-2,2-Dichloroethylene
+Acetylene Trichloride
+TCE
+Trethylene
+Triclene
+Trico
+Tri
+Trimar
+Trilene
+HCC-1120</OtherNames>
     <ChemSpiderID>13837280</ChemSpiderID>
     <ChEMBL>279816</ChEMBL>
     <StdInChI>1S/C2HCl3/c3-1-2(4)5/h1H</StdInChI>
@@ -19794,9 +19716,9 @@ Hydroxycarbamide</OtherFunction>
     <OtherFunction_label>ureas</OtherFunction_label>
     <OtherCompounds>Carbamide peroxide
 Urea phosphate 
- Acetone 
- Carbonic acid 
- Carbonyl fluoride</OtherCompounds>
+Acetone 
+Carbonic acid 
+Carbonyl fluoride</OtherCompounds>
   </item>
   <item>
     <substance_name>ammonium nitrate</substance_name>
@@ -20139,7 +20061,7 @@ butadiene and styrene (monomers)</OtherCompounds>
     <PIN>4,4′-(Propane-2,2-diyl)diphenol</PIN>
     <OtherNames>BPA
 p,p-Isopropylidenebisphenol,
- 2,2-Bis(4-hydroxyphenyl)propane</OtherNames>
+2,2-Bis(4-hydroxyphenyl)propane</OtherNames>
     <IUPHAR_ligand>7865</IUPHAR_ligand>
     <ChEBI>33216</ChEBI>
     <DrugBank>DB06973</DrugBank>
@@ -20377,14 +20299,10 @@ exo isomer: (3aS*,4S*,7R*,7aR*)-)</OtherNames>
     <PEL>TWA 20 mppcf (80 mg/m^3/%SiO2) (amorphous)</PEL>
     <OtherFunction_label>diones</OtherFunction_label>
     <OtherFunction>Carbon dioxide
-
 Germanium dioxide
-
 Tin dioxide
-
 Lead dioxide</OtherFunction>
     <OtherCompounds>Silicon monoxide
-
 Silicon sulfide</OtherCompounds>
     <DeltaHf>−911 kJ·mol^−1</DeltaHf>
     <Entropy>42 J·mol^−1·K^−1</Entropy>
@@ -20394,8 +20312,8 @@ Silicon sulfide</OtherCompounds>
     <url>https://en.wikipedia.org/wiki/ethylene-vinyl+acetate</url>
     <Name>ethylene-vinyl acetate</Name>
     <OtherNames>Poly(ethylene-vinyl acetate)
- Poly(ethylene-co-vinyl acetate)
- Polyethylene-vinyl acetate copolymer</OtherNames>
+Poly(ethylene-co-vinyl acetate)
+Polyethylene-vinyl acetate copolymer</OtherNames>
     <Abbreviations>EVA; PEVA</Abbreviations>
     <ChemSpiderID>none</ChemSpiderID>
     <UNII>4OKC630HS6</UNII>
@@ -20436,7 +20354,7 @@ meta-Phthalic acid</OtherNames>
     <OtherFunction>Benzoic acid
 Phthalic acid (ortho) 
 Terephthalic acid (para) 
- Trimesic acid</OtherFunction>
+Trimesic acid</OtherFunction>
   </item>
   <item>
     <substance_name>methyl methacrylate</substance_name>
@@ -20794,14 +20712,12 @@ Polythene</OtherNames>
 
 P</IUPACName>
     <OtherNames>Polypropylene
- Polypropene
-
+Polypropene
 Polipropene 25 [USAN]
- Propene polymers
-
+Propene polymers
 Propylene polymers
- 1-Propene
- [-Ch2-Ch(Ch3)-]n</OtherNames>
+1-Propene
+[-Ch2-Ch(Ch3)-]n</OtherNames>
     <CASNo>9003-07-0</CASNo>
     <ChemSpiderID>None</ChemSpiderID>
     <Formula>(C3H6)n</Formula>
@@ -20887,12 +20803,12 @@ Propylene polymers
     <Name>Polyvinylidene fluoride</Name>
     <IUPACName>Poly(1,1-difluoroethylene)</IUPACName>
     <OtherNames>Polyvinylidene difluoride
- poly(vinylene fluoride)
- Kynar
- Hylar
- Solef
- Sygef
- poly(1,1-difluoroethane)</OtherNames>
+poly(vinylene fluoride)
+Kynar
+Hylar
+Solef
+Sygef
+poly(1,1-difluoroethane)</OtherNames>
     <CASNo>24937-79-9</CASNo>
     <PubChem>6369</PubChem>
     <MeSHName>polyvinylidene+fluoride</MeSHName>
@@ -20912,12 +20828,12 @@ PTFE</OtherCompounds>
     <Name>Polyvinylidene fluoride</Name>
     <IUPACName>Poly(1,1-difluoroethylene)</IUPACName>
     <OtherNames>Polyvinylidene difluoride
- poly(vinylene fluoride)
- Kynar
- Hylar
- Solef
- Sygef
- poly(1,1-difluoroethane)</OtherNames>
+poly(vinylene fluoride)
+Kynar
+Hylar
+Solef
+Sygef
+poly(1,1-difluoroethane)</OtherNames>
     <CASNo>24937-79-9</CASNo>
     <PubChem>6369</PubChem>
     <MeSHName>polyvinylidene+fluoride</MeSHName>
@@ -20937,12 +20853,12 @@ PTFE</OtherCompounds>
     <Name>Polyvinylidene fluoride</Name>
     <IUPACName>Poly(1,1-difluoroethylene)</IUPACName>
     <OtherNames>Polyvinylidene difluoride
- poly(vinylene fluoride)
- Kynar
- Hylar
- Solef
- Sygef
- poly(1,1-difluoroethane)</OtherNames>
+poly(vinylene fluoride)
+Kynar
+Hylar
+Solef
+Sygef
+poly(1,1-difluoroethane)</OtherNames>
     <CASNo>24937-79-9</CASNo>
     <PubChem>6369</PubChem>
     <MeSHName>polyvinylidene+fluoride</MeSHName>
@@ -20977,7 +20893,7 @@ Terephthalic acid
 para-Phthalic acid
 TPA
 PTA
- BDC</OtherNames>
+BDC</OtherNames>
     <ChEBI>15702</ChEBI>
     <SMILES>O=C(O)c1ccc(C(O)=O)cc1</SMILES>
     <ChemSpiderID>7208</ChemSpiderID>
@@ -21015,12 +20931,12 @@ PTA
     <PPhrases></PPhrases>
     <OtherFunction_label>carboxylic acids</OtherFunction_label>
     <OtherFunction>Phthalic acid
- Isophthalic acid
- Benzoic acid
- p-Toluic acid</OtherFunction>
+Isophthalic acid
+Benzoic acid
+p-Toluic acid</OtherFunction>
     <OtherCompounds>p-Xylene
- Polyethylene terephthalate
- Dimethyl terephthalate</OtherCompounds>
+Polyethylene terephthalate
+Dimethyl terephthalate</OtherCompounds>
   </item>
   <item>
     <substance_name>Polyethylene</substance_name>
@@ -21096,7 +21012,6 @@ Styropol</OtherNames>
     <OtherFunction_label>styrenes;related aromatic compounds</OtherFunction_label>
     <OtherFunction>polystyrene
 stilbene
-
 ethylbenzene</OtherFunction>
   </item>
   <item>
@@ -21408,7 +21323,7 @@ hexacarbane</OtherNames>
     <url>https://en.wikipedia.org/wiki/pentane</url>
     <PIN>Pentane</PIN>
     <OtherNames>Quintane
- Refrigerant-4-13-0</OtherNames>
+Refrigerant-4-13-0</OtherNames>
     <CASNo>109-66-0</CASNo>
     <PubChem>8003</PubChem>
     <ChemSpiderID>7712</ChemSpiderID>
@@ -21503,7 +21418,6 @@ hexacarbane</OtherNames>
     <OtherFunction_label>alkenes;related groups</OtherFunction_label>
     <OtherFunction>Ethylene
 Isomers of Butylene
-
 Allyl
 Propenyl</OtherFunction>
     <OtherCompounds>Propane
@@ -21519,7 +21433,7 @@ Propadiene
     <PIN>Benzene</PIN>
     <OtherNames>Benzol (historic/German)
 Cyclohexa-1,3,5-triene
- 1,3,5-Cyclohexatriene
+1,3,5-Cyclohexatriene
 [6]Annulene (not recommended)</OtherNames>
     <CASNo>71-43-2</CASNo>
     <PubChem>241</PubChem>
@@ -21579,7 +21493,7 @@ Cyclohexa-1,3,5-triene
     <MainHazards>potential occupational carcinogen, flammable</MainHazards>
     <LCLo>44,000 ppm (rabbit, 30 min)44,923 ppm (dog)52,308 ppm (cat)20,000 ppm (human, 5 min)</LCLo>
     <OtherCompounds>Toluene
- Borazine</OtherCompounds>
+Borazine</OtherCompounds>
   </item>
   <item>
     <substance_name>ethylene</substance_name>

@@ -131,7 +131,7 @@
         "NFPA-R": "0",
         "FlashPtC": "49",
         "AutoignitionPtC": "300",
-        "OtherCompounds": "Hexane\n\nPentylamine"
+        "OtherCompounds": "Hexane\nPentylamine"
     },
     {
         "substance_name": "1-Propanol",
@@ -774,7 +774,7 @@
         "url": "https://en.wikipedia.org/wiki/Pentetic+acid",
         "Name": "Pentetic acid",
         "PIN": "2,2′,2′′,2′′′-{[(Carboxymethyl)azanediyl]bis(ethane-2,1-diylnitrilo)}tetraacetic acid",
-        "OtherNames": "DTPA\n  H5dtpa\n Diethylenetriaminepentaacetic acid\n Penta(carboxymethyl)diethylenetriamine",
+        "OtherNames": "DTPA\n H5dtpa\nDiethylenetriaminepentaacetic acid\nPenta(carboxymethyl)diethylenetriamine",
         "ChEBI": "35739",
         "SMILES": "C(CN(CC(=O)O)CC(=O)O)N(CCN(CC(=O)O)CC(=O)O)CC(=O)O",
         "UNII": "7A314HQM0I",
@@ -1008,7 +1008,7 @@
         "MainHazards": "potential occupational carcinogen",
         "LC50": "13,000 ppm (rat), 17,000 ppm (hamster), 20,000 ppm (rat)",
         "OtherFunction_label": "aldehydes",
-        "OtherFunction": "Formaldehyde\n Propionaldehyde",
+        "OtherFunction": "Formaldehyde\nPropionaldehyde",
         "OtherCompounds": "Ethylene oxide"
     },
     {
@@ -1060,7 +1060,7 @@
         "url": "https://en.wikipedia.org/wiki/acetic+acid",
         "PIN": "Acetic acid",
         "SystematicName": "Ethanoic acid",
-        "OtherNames": "Vinegar (when dilute)\n Hydrogen acetate\n Methanecarboxylic acid",
+        "OtherNames": "Vinegar (when dilute)\nHydrogen acetate\nMethanecarboxylic acid",
         "Abbreviations": "AcOH",
         "CASNo": "64-19-7",
         "PubChem": "176",
@@ -1121,7 +1121,7 @@
         "IDLH": "50 ppm",
         "OtherFunction_label": "carboxylic acids",
         "OtherFunction": "Formic acid\nPropionic acid",
-        "OtherCompounds": "Acetaldehyde\n\nAcetamide\n\nAcetic anhydride\n\nAcetonitrile\n\nAcetyl chloride\n\nEthanol\n\nEthyl acetate\n\nPotassium acetate\n\nSodium acetate\n\nThioacetic acid"
+        "OtherCompounds": "Acetaldehyde\nAcetamide\nAcetic anhydride\nAcetonitrile\nAcetyl chloride\nEthanol\nEthyl acetate\nPotassium acetate\nSodium acetate\nThioacetic acid"
     },
     {
         "substance_name": "acetic anhydride",
@@ -1469,7 +1469,7 @@
         "url": "https://en.wikipedia.org/wiki/acrolein",
         "Name": "Acrolein",
         "PIN": "Prop-2-enal",
-        "OtherNames": "Acraldehyde\nAcrylic aldehyde\nAllyl aldehyde\nEthylene aldehyde\n Acrylaldehyde",
+        "OtherNames": "Acraldehyde\nAcrylic aldehyde\nAllyl aldehyde\nEthylene aldehyde\nAcrylaldehyde",
         "ChEBI": "15368",
         "SMILES": "O=CC=C",
         "UNII": "7864XYD3JJ",
@@ -1515,7 +1515,7 @@
         "HPhrases": "",
         "PPhrases": "",
         "OtherFunction_label": "alkenals",
-        "OtherFunction": "Crotonaldehyde\n\ncis-3-Hexenal\n\n(E,E)-2,4-Decadienal"
+        "OtherFunction": "Crotonaldehyde\ncis-3-Hexenal\n(E,E)-2,4-Decadienal"
     },
     {
         "substance_name": "acrylic acid",
@@ -1657,8 +1657,8 @@
         "REL": "TWA 6 mg/m^3 (amorphous)Ca TWA 0.05 mg/m^3",
         "PEL": "TWA 20 mppcf (80 mg/m^3/%SiO2) (amorphous)",
         "OtherFunction_label": "diones",
-        "OtherFunction": "Carbon dioxide\n\nGermanium dioxide\n\nTin dioxide\n\nLead dioxide",
-        "OtherCompounds": "Silicon monoxide\n\nSilicon sulfide",
+        "OtherFunction": "Carbon dioxide\nGermanium dioxide\nTin dioxide\nLead dioxide",
+        "OtherCompounds": "Silicon monoxide\nSilicon sulfide",
         "DeltaHf": "−911 kJ·mol^−1",
         "Entropy": "42 J·mol^−1·K^−1"
     },
@@ -1770,7 +1770,7 @@
         "substance_name": "1-Naphthol",
         "url": "https://en.wikipedia.org/wiki/1-Naphthol",
         "PIN": "Naphthalen-1-ol",
-        "OtherNames": "1-Hydroxynaphthalene\n 1-Naphthalenol\n α-Naphthol",
+        "OtherNames": "1-Hydroxynaphthalene\n1-Naphthalenol\nα-Naphthol",
         "UNII": "2A71EAQ389",
         "KEGG": "C11714",
         "InChI": "1/C10H8O/c11-10-7-3-5-8-4-1-2-6-9(8)10/h1-7,11H",
@@ -1916,7 +1916,7 @@
         "url": "https://en.wikipedia.org/wiki/aluminium+hydroxide",
         "PIN": "Aluminium hydroxide",
         "SystematicName": "Aluminium(3+) trioxidanide",
-        "OtherNames": "Aluminic acid\n\nAluminic hydroxide\n\nAluminium(III) hydroxide\n\nAluminium hydroxide\n\nAluminum trihydroxide\n\nHydrated alumina\n\nOrthoaluminic acid",
+        "OtherNames": "Aluminic acid\nAluminic hydroxide\nAluminium(III) hydroxide\nAluminium hydroxide\nAluminum trihydroxide\n\nHydrated alumina\nOrthoaluminic acid",
         "InChI": "1/Al.3H2O/h;3*1H2/q+3;;;/p-3",
         "InChIKey": "WNROFYMDJYEPJX-DFZHHIFOAJ",
         "CASNo": "21645-51-2",
@@ -1958,7 +1958,7 @@
         "substance_name": "aluminium sulfate",
         "url": "https://en.wikipedia.org/wiki/aluminium+sulfate",
         "IUPACName": "Aluminium sulfate",
-        "OtherNames": "Aluminum sulfate\nAluminium sulphate\nCake alum\nFilter alum\nPapermakers alum\nAlunogenite\n aluminum salt (3:2)",
+        "OtherNames": "Aluminum sulfate\nAluminium sulphate\nCake alum\nFilter alum\nPapermakers alum\nAlunogenite\naluminum salt (3:2)",
         "ChemSpiderID": "23233",
         "UNII": "I7T908772F",
         "UNII1": "TCS9L00G8F",
@@ -2000,7 +2000,7 @@
         "substance_name": "aluminium sulfate",
         "url": "https://en.wikipedia.org/wiki/aluminium+sulfate",
         "IUPACName": "Aluminium sulfate",
-        "OtherNames": "Aluminum sulfate\nAluminium sulphate\nCake alum\nFilter alum\nPapermakers alum\nAlunogenite\n aluminum salt (3:2)",
+        "OtherNames": "Aluminum sulfate\nAluminium sulphate\nCake alum\nFilter alum\nPapermakers alum\nAlunogenite\naluminum salt (3:2)",
         "ChemSpiderID": "23233",
         "UNII": "I7T908772F",
         "UNII1": "TCS9L00G8F",
@@ -2042,7 +2042,7 @@
         "substance_name": "2-Aminopyridine",
         "url": "https://en.wikipedia.org/wiki/2-Aminopyridine",
         "PIN": "Pyridin-2-amine",
-        "OtherNames": "2-Pyridinamine\n 2-Pyridylamine\n α-Aminopyridine\n α-Pyridylamine",
+        "OtherNames": "2-Pyridinamine\n2-Pyridylamine\nα-Aminopyridine\nα-Pyridylamine",
         "ChemSpiderID": "10008",
         "InChI": "1/C5H6N2/c6-5-3-1-2-4-7-5/h1-4H,(H2,6,7)",
         "InChIKey": "ICSNLGPSRYBMBD-UHFFFAOYAM",
@@ -2078,7 +2078,7 @@
         "substance_name": "3-Aminopyridine",
         "url": "https://en.wikipedia.org/wiki/3-Aminopyridine",
         "PIN": "Pyridin-3-amine",
-        "OtherNames": "3-Pyridinamine\n 3-Pyridylamine",
+        "OtherNames": "3-Pyridinamine\n3-Pyridylamine",
         "ChemSpiderID": "9615",
         "CASNo": "462-08-8",
         "UNII": "69JE8P2L84",
@@ -2133,7 +2133,7 @@
         "url": "https://en.wikipedia.org/wiki/ammonia",
         "IUPACName": "Ammonia",
         "SystematicName": "Azane",
-        "OtherNames": "Hydrogen nitride\n\nR-717 (refrigerant)\n\nR717 (refrigerant alternative spelling)",
+        "OtherNames": "Hydrogen nitride\nR-717 (refrigerant)\nR717 (refrigerant alternative spelling)",
         "InChI": "1/H3N/h1H3",
         "InChIKey": "QGZKDVFQNNGYKY-UHFFFAOYAF",
         "CASNo": "7664-41-7",
@@ -2639,7 +2639,7 @@
         "GHSSignalWord": "Danger",
         "HPhrases": "",
         "PPhrases": "",
-        "OtherCompounds": "quinone,\n anthracene"
+        "OtherCompounds": "quinone,\nanthracene"
     },
     {
         "substance_name": "arsine",
@@ -2693,7 +2693,7 @@
         "LC50": "",
         "LCLo": "",
         "OtherFunction_label": "hydrides",
-        "OtherFunction": "Ammonia\n phosphine\n stibine\n bismuthine"
+        "OtherFunction": "Ammonia\nphosphine\nstibine\nbismuthine"
     },
     {
         "substance_name": "atrazine",
@@ -2732,7 +2732,7 @@
         "substance_name": "azodicarbonamide",
         "url": "https://en.wikipedia.org/wiki/azodicarbonamide",
         "IUPACName": "Carbamoyliminourea",
-        "OtherNames": "Azodicarboxamide\n Azobisformamide\n C,C-Azodi(formamide)\n Diazenedicarboxamide",
+        "OtherNames": "Azodicarboxamide\nAzobisformamide\nC,C-Azodi(formamide)\nDiazenedicarboxamide",
         "ChemSpiderID": "4575589",
         "UNII": "56Z28B9C8O",
         "InChI": "1/C2H4N4O2/c3-1(7)5-6-2(4)8/h(H2,3,7)(H2,4,8)/b6-5+",
@@ -3211,7 +3211,7 @@
         "url": "https://en.wikipedia.org/wiki/benzyl+alcohol",
         "Name": "Benzyl alcohol",
         "PIN": "Phenylmethanol",
-        "OtherNames": "Phenylcarbinol\n Benzenemethanol",
+        "OtherNames": "Phenylcarbinol\nBenzenemethanol",
         "UNII": "LKG8494WBH",
         "KEGG": "D00077",
         "InChI": "1/C7H8O/c8-6-7-4-2-1-3-5-7/h1-5,8H,6H2",
@@ -3310,7 +3310,7 @@
         "url": "https://en.wikipedia.org/wiki/bisphenol+A",
         "Name": "Bisphenol A",
         "PIN": "4,4′-(Propane-2,2-diyl)diphenol",
-        "OtherNames": "BPA\np,p-Isopropylidenebisphenol,\n 2,2-Bis(4-hydroxyphenyl)propane",
+        "OtherNames": "BPA\np,p-Isopropylidenebisphenol,\n2,2-Bis(4-hydroxyphenyl)propane",
         "IUPHAR_ligand": "7865",
         "ChEBI": "33216",
         "DrugBank": "DB06973",
@@ -3452,7 +3452,7 @@
     {
         "substance_name": "boron trioxide",
         "url": "https://en.wikipedia.org/wiki/boron+trioxide",
-        "OtherNames": "boron oxide\ndiboron trioxide\nboron sesquioxide\nboric oxide\nboria\n\nBoric acid anhydride",
+        "OtherNames": "boron oxide\ndiboron trioxide\nboron sesquioxide\nboric oxide\nboria\nBoric acid anhydride",
         "ChemSpiderID": "452485",
         "InChI": "1/B2O3/c3-1-5-2-4",
         "ChEBI": "30163",
@@ -3685,7 +3685,7 @@
         "url": "https://en.wikipedia.org/wiki/butane",
         "PIN": "Butane",
         "SystematicName": "Tetracarbane (never recommended)",
-        "OtherNames": "Butyl hydride\n Refrigerant 3-11-0",
+        "OtherNames": "Butyl hydride\nRefrigerant 3-11-0",
         "CASNo": "106-97-8",
         "PubChem": "7843",
         "ChemSpiderID": "7555",
@@ -3845,7 +3845,7 @@
         "LC50": "160 ppm (rat, 4 hr)2000 ppm (rat, 4 hr)391 ppm (rat, 4 hr)1242 ppm (mouse, 2 hr)",
         "LCLo": "14,079 ppm (cat, 72 min)13,872 ppm (guinea pig, 4 hr)",
         "OtherFunction_label": "acetates",
-        "OtherFunction": "Ethyl acetate\n Propyl acetate\n Amyl acetate",
+        "OtherFunction": "Ethyl acetate\nPropyl acetate\nAmyl acetate",
         "OtherCompounds": "Butanol"
     },
     {
@@ -4240,7 +4240,7 @@
         "url": "https://en.wikipedia.org/wiki/calcium+carbonate",
         "Name": "Calcium carbonate",
         "IUPACName": "Calcium carbonate",
-        "OtherNames": "calcite\n aragonite\n chalk\n Lime (material)\n Limestone\n marble\n oyster\n pearl",
+        "OtherNames": "calcite\naragonite\nchalk\nLime (material)\nLimestone\nmarble\noyster\npearl",
         "UNII": "H0G9379FGK",
         "ChEMBL": "1200539",
         "DrugBank": "DB06724",
@@ -4292,7 +4292,7 @@
         "url": "https://en.wikipedia.org/wiki/calcium+chloride",
         "Name": "Calcium chloride",
         "IUPACName": "Calcium chloride",
-        "OtherNames": "Neutral calcium chloride\n calcium(II) chloride\ncalcium dichloride\nE509",
+        "OtherNames": "Neutral calcium chloride\ncalcium(II) chloride\ncalcium dichloride\nE509",
         "ChemSpiderID": "23237",
         "UNII": "OFM21057LP",
         "UNII1": "LEV48803S9",
@@ -4453,7 +4453,7 @@
     {
         "substance_name": "carbon black",
         "url": "https://en.wikipedia.org/wiki/carbon+black",
-        "OtherNames": "Acetylene black\n Channel black\n Furnace black\n Lamp black\n Thermal black\n C.I. Pigment Black 6",
+        "OtherNames": "Acetylene black\nChannel black\nFurnace black\nLamp black\nThermal black\nC.I. Pigment Black 6",
         "CASNo": "1333-86-4",
         "UNII": "4XYU5U00C4",
         "EC_number": "215-609-9",
@@ -4589,7 +4589,7 @@
         "substance_name": "carbon monoxide",
         "url": "https://en.wikipedia.org/wiki/carbon+monoxide",
         "PIN": "Carbon monoxide",
-        "OtherNames": "Carbonic Oxide\nCarbon Protoxide\noxide of carbon\nprotoxide of carbon\nCarbon mono-oxide\nCarbonous Oxide\ncarbonei oxidum\noxyde de carbone\nCarbon(II) oxide\ncarbonii halitus\ncarboneum oxgenisatum\nCarbate\nCarbonyl\nKohlenoxyd\n\nWater gas\nFlue gas\ncarbonic inflammable air\nheavy inflammable air\nhydrocarbonate\ncarbonated hydrogene\nwhite damp\nfire damp\npowder gas\nilluminating gas\nDowson gas\nMond gas\npower gas\nproducer gas\nblast furnace gas\ncoal gas\nphlogiston",
+        "OtherNames": "Carbonic Oxide\nCarbon Protoxide\noxide of carbon\nprotoxide of carbon\nCarbon mono-oxide\nCarbonous Oxide\ncarbonei oxidum\noxyde de carbone\nCarbon(II) oxide\ncarbonii halitus\ncarboneum oxgenisatum\nCarbate\nCarbonyl\nKohlenoxyd\nWater gas\nFlue gas\ncarbonic inflammable air\nheavy inflammable air\nhydrocarbonate\ncarbonated hydrogene\nwhite damp\nfire damp\npowder gas\nilluminating gas\nDowson gas\nMond gas\npower gas\nproducer gas\nblast furnace gas\ncoal gas\nphlogiston",
         "InChI": "1/CO/c1-2",
         "InChIKey": "UGFAIRIUMAVXCW-UHFFFAOYAT",
         "CASNo": "630-08-0",
@@ -4717,7 +4717,7 @@
     {
         "substance_name": "carboxymethyl cellulose",
         "url": "https://en.wikipedia.org/wiki/carboxymethyl+cellulose",
-        "OtherNames": "Carboxymethylcellulose\n carmellose\n E466",
+        "OtherNames": "Carboxymethylcellulose\ncarmellose\nE466",
         "CASNo": "9000-11-7",
         "UNII": "05JZI7B19X",
         "ChEMBL": "1909054",
@@ -5094,7 +5094,7 @@
         "substance_name": "3-Nitrochlorobenzene",
         "url": "https://en.wikipedia.org/wiki/3-Nitrochlorobenzene",
         "PIN": "1-Chloro-3-nitrobenzene",
-        "OtherNames": "m-Nitrochlorobenzene\n m-Chloronitrobenzene\n 3-Chloronitrobenzene",
+        "OtherNames": "m-Nitrochlorobenzene\nm-Chloronitrobenzene\n3-Chloronitrobenzene",
         "CASNo": "121-73-3",
         "UNII": "8XSA3GF8O1",
         "EINECS": "204-496-1",
@@ -5274,7 +5274,7 @@
         "HPhrases": "",
         "PPhrases": "",
         "OtherFunction_label": "nitriles; organochlorides",
-        "OtherFunction": "benzonitrile\n\nhexachlorobenzene\ndichlorobenzene\nchlorobenzene"
+        "OtherFunction": "benzonitrile\nhexachlorobenzene\ndichlorobenzene\nchlorobenzene"
     },
     {
         "substance_name": "Chlortoluron",
@@ -5360,7 +5360,7 @@
         "url": "https://en.wikipedia.org/wiki/Chromium%28IV%29+oxide",
         "Name": "Chromium(IV) oxide",
         "IUPACName": "Chromium(IV) oxide, Chromium dioxide",
-        "OtherNames": "Crolyn \n magtrieve",
+        "OtherNames": "Crolyn \nmagtrieve",
         "ChemSpiderID": "21171202",
         "InChI": "1/Cr.2O/rCrO2/c2-1-3",
         "ChEBI": "48263",
@@ -5766,7 +5766,7 @@
     {
         "substance_name": "Copper(I) sulfate",
         "url": "https://en.wikipedia.org/wiki/Copper%28I%29+sulfate",
-        "OtherNames": "Copper(I) sulphate\n Cuprous sulfate\n Dicopper sulfate",
+        "OtherNames": "Copper(I) sulphate\nCuprous sulfate\nDicopper sulfate",
         "CASNo": "17599-81-4",
         "PubChem": "134737",
         "SMILES": "[O-]S(=O)(=O)[O-].[Cu+].[Cu+]",
@@ -6263,7 +6263,7 @@
         "substance_name": "dichloromethane",
         "url": "https://en.wikipedia.org/wiki/dichloromethane",
         "PIN": "Dichloromethane",
-        "OtherNames": "Methylene chloride\n Methylene dichloride\nSolmethine\n Narkotil\n Solaesthin\n Di-clo\n Refrigerant-30\n Freon-30\n R-30\n DCM\n MDC",
+        "OtherNames": "Methylene chloride\nMethylene dichloride\nSolmethine\nNarkotil\nSolaesthin\nDi-clo\nRefrigerant-30\nFreon-30\nR-30\nDCM\nMDC",
         "ChemSpiderID": "6104",
         "UNII": "588X2YUY0A",
         "InChIKey": "YMWUJEATGCHHMB-UHFFFAOYAG",
@@ -6322,7 +6322,7 @@
         "substance_name": "1,3-Dichloropropene",
         "url": "https://en.wikipedia.org/wiki/1%2C3-Dichloropropene",
         "PIN": "1,3-Dichloroprop-1-ene",
-        "OtherNames": "AQL Agrocelhone\nDD92\n1,3-D\nDorlone\nNematox\nTelone\nNemex\ncis-Dichloropropene\nDi-Trapex CP\nVorlex 201\ndichloro-1,3-propene\n1,3-dichloro-1-propene\n1,3-dichloro-2-propene\nalpha-chloroallylchloride\nchloroallylchloride\ngamma-chloroallylchloride\nchloroallyl chloride\nchloroorpropenyl chloride\n1,3-dichloropropylene\n3-D\nDCP\n 3-Chloroallyl chloride",
+        "OtherNames": "AQL Agrocelhone\nDD92\n1,3-D\nDorlone\nNematox\nTelone\nNemex\ncis-Dichloropropene\nDi-Trapex CP\nVorlex 201\ndichloro-1,3-propene\n1,3-dichloro-1-propene\n1,3-dichloro-2-propene\nalpha-chloroallylchloride\nchloroallylchloride\ngamma-chloroallylchloride\nchloroallyl chloride\nchloroorpropenyl chloride\n1,3-dichloropropylene\n3-D\nDCP\n3-Chloroallyl chloride",
         "ChemSpiderID": "23117",
         "InChIKey": "UOORRWUZONOOLO-OWOJBTEDBJ",
         "StdInChI": "1S/C3H4Cl2/c4-2-1-3-5/h1-2H,3H2/b2-1+",
@@ -6422,7 +6422,7 @@
         "url": "https://en.wikipedia.org/wiki/diethyl+ether",
         "Name": "Diethyl ether",
         "PIN": "Ethoxyethane",
-        "OtherNames": "Diethyl ether\n Dether\n Ethyl ether\n Ethyl oxide\n 3-Oxapentane\n Ethoxyethane\n Diethyl oxide\n Solvent ether\n Sulfuric ether\n Vitriolic ether\n Sweet oil of vitriol",
+        "OtherNames": "Diethyl ether\nDether\nEthyl ether\nEthyl oxide\n3-Oxapentane\nEthoxyethane\nDiethyl oxide\nSolvent ether\nSulfuric ether\nVitriolic ether\nSweet oil of vitriol",
         "ChEBI": "35702",
         "Beilstein": "1696894",
         "Gmelin": "25444",
@@ -6573,7 +6573,7 @@
         "substance_name": "dimethyl ether",
         "url": "https://en.wikipedia.org/wiki/dimethyl+ether",
         "PIN": "Methoxymethane",
-        "OtherNames": "Dimethyl ether\nR-E170\nDemeon\nDimethyl oxide\nDymel A\nMethyl ether\n Methyl Oxide\nMether\nWood ether",
+        "OtherNames": "Dimethyl ether\nR-E170\nDemeon\nDimethyl oxide\nDymel A\nMethyl ether\nMethyl Oxide\nMether\nWood ether",
         "Abbreviations": "DME",
         "CASNo": "115-10-6",
         "PubChem": "8254",
@@ -6620,8 +6620,8 @@
         "FlashPtC": "−41",
         "AutoignitionPtC": "350",
         "OtherFunction_label": "ethers",
-        "OtherFunction": "Diethyl ether\n\nPolyethylene glycol",
-        "OtherCompounds": "Ethanol\n\nMethanol"
+        "OtherFunction": "Diethyl ether\nPolyethylene glycol",
+        "OtherCompounds": "Ethanol\nMethanol"
     },
     {
         "substance_name": "dimethyl malonate",
@@ -6651,7 +6651,7 @@
         "substance_name": "dimethyl sulfate",
         "url": "https://en.wikipedia.org/wiki/dimethyl+sulfate",
         "PIN": "Dimethyl sulfate",
-        "OtherNames": "Dimethyl sulphate\n Sulfuric acid dimethyl ester\n Me2SO4\n DMSO4\n Dimethyl ester of sulfuric acid\n Methyl sulfate",
+        "OtherNames": "Dimethyl sulphate\nSulfuric acid dimethyl ester\nMe2SO4\nDMSO4\nDimethyl ester of sulfuric acid\nMethyl sulfate",
         "ChemSpiderID": "6252",
         "InChI": "1/C2H6O4S/c1-5-7(3,4)6-2/h1-2H3",
         "InChIKey": "VAYGXNSJCAHWJZ-UHFFFAOYAK",
@@ -6736,14 +6736,14 @@
         "ExploLimits": "19.7%",
         "OtherFunction_label": "chalcogenides",
         "OtherFunction": "Dimethyl ether (dimethyl oxide)\nDimethyl selenide\nDimethyl telluride",
-        "OtherCompounds": "Dimethyl ether\n Dimethyl sulfoxide\n Dimethyl sulfone"
+        "OtherCompounds": "Dimethyl ether\nDimethyl sulfoxide\nDimethyl sulfone"
     },
     {
         "substance_name": "dimethyl sulfoxide",
         "url": "https://en.wikipedia.org/wiki/dimethyl+sulfoxide",
         "PIN": "(Methanesulfinyl)methane",
         "SystematicName": "(Methanesulfinyl)methane (substitutive)\nDimethyl(oxido)sulfur (additive)",
-        "OtherNames": "Methylsulfinylmethane\n\nMethyl sulfoxide",
+        "OtherNames": "Methylsulfinylmethane\nMethyl sulfoxide",
         "Abbreviations": "DMSO, Me2SO",
         "CASNo": "67-68-5",
         "PubChem": "679",
@@ -7123,7 +7123,7 @@
     {
         "substance_name": "Di(propylene glycol) methyl ether",
         "url": "https://en.wikipedia.org/wiki/Di%28propylene+glycol%29+methyl+ether",
-        "OtherNames": "Dipropylene glycol monomethyl ether\n Dipropyleneglycol methyl ether\n DPGME",
+        "OtherNames": "Dipropylene glycol monomethyl ether\nDipropyleneglycol methyl ether\nDPGME",
         "CASNo": "34590-94-8",
         "CASNo_Comment": "(mixture of isomers)",
         "UNII": "RQ1X8FMQ9N",
@@ -7396,7 +7396,7 @@
         "substance_name": "Vinyl neodecanoate",
         "url": "https://en.wikipedia.org/wiki/Vinyl+neodecanoate",
         "PIN": "Ethenyl 7,7-dimethyloctanoate",
-        "OtherNames": "Neodecanoic acid vinyl ester\n VeoVa 10",
+        "OtherNames": "Neodecanoic acid vinyl ester\nVeoVa 10",
         "CASNo": "51000-52-3",
         "UNII": "9NDY01YYPT",
         "EC_number": "256-905-8",
@@ -7536,7 +7536,7 @@
         "url": "https://en.wikipedia.org/wiki/Ethylbenzene",
         "Name": "Ethylbenzene",
         "IUPACName": "Ethylbenzene",
-        "OtherNames": "Ethylbenzol\n Phenylethane\n alpha-Methyltoluene\n EB",
+        "OtherNames": "Ethylbenzol\nPhenylethane\nalpha-Methyltoluene\nEB",
         "Abbreviations": "EB",
         "DrugBank": "DB01722",
         "ChEBI": "16101",
@@ -7733,7 +7733,7 @@
         "url": "https://en.wikipedia.org/wiki/1%2C2-Dichloroethane",
         "Name": "1,2-Dichloroethane",
         "PIN": "1,2-Dichloroethane",
-        "OtherNames": "Ethylene dichloride\nEthylene chloride\n1,2-DCE\n\nDCE\nEthane dichloride\nDutch liquid\nDutch oil\nFreon 150",
+        "OtherNames": "Ethylene dichloride\nEthylene chloride\n1,2-DCE\nDCE\nEthane dichloride\nDutch liquid\nDutch oil\nFreon 150",
         "SMILES": "ClCCCl",
         "StdInChI": "1S/C2H4Cl2/c3-1-2-4/h1-2H2",
         "StdInChIKey": "WSLDOOZREJYCGB-UHFFFAOYSA-N",
@@ -7977,7 +7977,7 @@
         "REL": "Ca TWA <0.1ppm (0.18mg/m^3) C 5ppm (9mg/m^3) [10-min/day]",
         "IDLH": "Ca [800ppm]",
         "LC50": "836ppm (mouse, 4hr) 4000ppm (rat, 4hr) 800ppm (rat, 4hr)819ppm (guinea pig, 4hr)1460ppm (rat, 4hr)835ppm (mouse, 4hr)960ppm (dog, 4hr)",
-        "OtherFunction": "Aziridine,\n Thiirane,\n Borirane",
+        "OtherFunction": "Aziridine,\nThiirane,\nBorirane",
         "OtherFunction_label": "heterocycles"
     },
     {
@@ -8200,7 +8200,7 @@
         "LC50": "333 ppm (mouse, 2 h)815 ppm (rat, 30 min)",
         "LCLo": "333 ppm (cat, 2 h)",
         "OtherFunction_label": "aldehydes",
-        "OtherFunction": "Acetaldehyde\n\nButyraldehyde\n\nDecanal\n\nHeptanal\n\nHexanal\n\nNonanal\n\nOctadecanal\n\nOctanal\n\nPentanal\n\nPropionaldehyde",
+        "OtherFunction": "Acetaldehyde\nButyraldehyde\nDecanal\nHeptanal\nHexanal\nNonanal\nOctadecanal\nOctanal\nPentanal\nPropionaldehyde",
         "OtherCompounds": "methanol\nformic acid"
     },
     {
@@ -8209,7 +8209,7 @@
         "Name": "Formic acid",
         "PIN": "Formic acid",
         "SystematicName": "Methanoic acid",
-        "OtherNames": "Carbonous acid\n Formylic acid\n Hydrogen carboxylic acid\n Hydroxy(oxo)methane\n Metacarbonoic acid\n Oxocarbinic acid\n Oxomethanol",
+        "OtherNames": "Carbonous acid\nFormylic acid\nHydrogen carboxylic acid\nHydroxy(oxo)methane\nMetacarbonoic acid\nOxocarbinic acid\nOxomethanol",
         "DrugBank": "DB01942",
         "SMILES": "O=CO",
         "UNII": "0YIW783RG1",
@@ -8271,7 +8271,7 @@
     {
         "substance_name": "fosetyl-Al",
         "url": "https://en.wikipedia.org/wiki/fosetyl-Al",
-        "OtherNames": "Fosetyl-aluminum\n Aluminum tris(ethyl phosphite)\nAliette\nFullstop",
+        "OtherNames": "Fosetyl-aluminum\nAluminum tris(ethyl phosphite)\nAliette\nFullstop",
         "CASNo": "39148-24-8",
         "PubChem": "6328269",
         "EC_number": "254-320-2",
@@ -8348,7 +8348,7 @@
         "substance_name": "hydrazine",
         "url": "https://en.wikipedia.org/wiki/hydrazine",
         "SystematicName": "Hydrazine",
-        "OtherNames": "Diamine\n\nDiazane\n Tetrahydridodinitrogen (N—N)\n diamidogen",
+        "OtherNames": "Diamine\nDiazane\nTetrahydridodinitrogen (N—N)\ndiamidogen",
         "CASNo": "302-01-2",
         "PubChem": "9321",
         "ChemSpiderID": "8960",
@@ -8622,7 +8622,7 @@
         "substance_name": "Bis(trimethylsilyl)amine",
         "url": "https://en.wikipedia.org/wiki/Bis%28trimethylsilyl%29amine",
         "PIN": "1,1,1-Trimethyl-N-(trimethylsilyl)silanamine",
-        "OtherNames": "Bis(trimethylsilyl)azane\nBis(trimethylsilyl)amine\n1,1,1,3,3,3-Hexamethyldisilazane\n\nHexamethyldisilazane",
+        "OtherNames": "Bis(trimethylsilyl)azane\nBis(trimethylsilyl)amine\n1,1,1,3,3,3-Hexamethyldisilazane\nHexamethyldisilazane",
         "Abbreviations": "HMDS",
         "CASNo": "999-97-3",
         "UNII": "H36C68P1BH",
@@ -8690,7 +8690,7 @@
         "SPhrases": ",",
         "OtherAnions": "Holmium(III) chloride",
         "OtherCations": "Dysprosium(III) oxideErbium(III) oxide",
-        "OtherCompounds": "Bismuth(III) oxide\n\nEuropium(III) oxide\n\nGold(III) oxide\n\nLanthanum(III) oxide\n\nLutetium(III) oxide\n\nPraseodymium(III) oxide\n\nPromethium(III) oxide\n\nTerbium(III) oxide\n\nThallium(III) oxide\n\nThulium(III) oxide"
+        "OtherCompounds": "Bismuth(III) oxide\nEuropium(III) oxide\nGold(III) oxide\nLanthanum(III) oxide\nLutetium(III) oxide\nPraseodymium(III) oxide\nPromethium(III) oxide\nTerbium(III) oxide\nThallium(III) oxide\nThulium(III) oxide"
     },
     {
         "substance_name": "hydrochloric acid",
@@ -8832,7 +8832,7 @@
         "LCLo": "313 ppm (rabbit, 7 hr)",
         "OtherAnions": "Hydrogen chlorideHydrogen bromideHydrogen iodideHydrogen astatide",
         "OtherCations": "Sodium fluoridePotassium fluorideRubidium fluorideCaesium fluoride",
-        "OtherCompounds": "Water\n Ammonia"
+        "OtherCompounds": "Water\nAmmonia"
     },
     {
         "substance_name": "hydrogen peroxide",
@@ -9071,7 +9071,7 @@
         "LD50": "408 mg/kg (oral, mouse); 59–70 mg/kg (intraperitoneal mouse, rat); 29 mg/kg (subcutaneous, rat)",
         "OtherFunction_label": "hydroxylammonium salts",
         "OtherFunction": "Hydroxylammonium chloride\nHydroxylammonium nitrate\nHydroxylammonium sulfate",
-        "OtherCompounds": "Ammonia\n\nHydrazine"
+        "OtherCompounds": "Ammonia\nHydrazine"
     },
     {
         "substance_name": "imidazole",
@@ -9193,7 +9193,7 @@
         "url": "https://en.wikipedia.org/wiki/Iron%28II%29+sulfate",
         "Name": "Iron(II) sulfate",
         "IUPACName": "Iron(II) sulfate",
-        "OtherNames": "Iron(II) sulphate\n Ferrous sulfate\nGreen vitriol\nIron vitriol\nCopperas\nMelanterite\nSzomolnokite",
+        "OtherNames": "Iron(II) sulphate\nFerrous sulfate\nGreen vitriol\nIron vitriol\nCopperas\nMelanterite\nSzomolnokite",
         "ChemSpiderID": "22804",
         "ChemSpiderID1": "56459",
         "UNII": "2IDP3X9OUD",
@@ -10426,7 +10426,7 @@
         "substance_name": "methanol",
         "url": "https://en.wikipedia.org/wiki/methanol",
         "PIN": "Methanol",
-        "OtherNames": "Carbinol\nColumbian spirits\n Hydroxymethane\nMeOH\nMethyl alcohol\nMethyl hydroxide\nMethylic alcohol\nMethylol\nMethylene hydrate\nPyroligneous spirit\nWood alcohol\nWood naphtha\nWood spirit",
+        "OtherNames": "Carbinol\nColumbian spirits\nHydroxymethane\nMeOH\nMethyl alcohol\nMethyl hydroxide\nMethylic alcohol\nMethylol\nMethylene hydrate\nPyroligneous spirit\nWood alcohol\nWood naphtha\nWood spirit",
         "CASNo": "67-56-1",
         "PubChem": "887",
         "ChemSpiderID": "864",
@@ -10524,7 +10524,7 @@
         "FlashPtF": "14",
         "ExploLimits": "3.1%-16%",
         "LCLo": "11,039 ppm (mouse, 4 hr)21,753 ppm (cat, 1 hr)32,000 ppm (rat, 4 hr)",
-        "OtherFunction": "Methyl formate\n Ethyl acetate\n Ethyl formate\nMethyl fluoroacetate",
+        "OtherFunction": "Methyl formate\nEthyl acetate\nEthyl formate\nMethyl fluoroacetate",
         "OtherFunction_label": "esters"
     },
     {
@@ -10616,7 +10616,7 @@
         "REL": "TWA 200ppm (590mg/m^3) ST 300ppm (885mg/m^3)",
         "LC50": "",
         "OtherFunction_label": "ketones",
-        "OtherFunction": "Acetone\n 3-pentanone\n 3-methylbutanone"
+        "OtherFunction": "Acetone\n3-pentanone\n3-methylbutanone"
     },
     {
         "substance_name": "methyl formate",
@@ -10717,7 +10717,7 @@
         "url": "https://en.wikipedia.org/wiki/methyl+tert-butyl+ether",
         "Name": "Methyl tert-butyl ether",
         "PIN": "2-Methoxy-2-methylpropane",
-        "OtherNames": "Methyl tertiary-butyl ether\n Methyl tert-butyl ether\n Methyl t-butyl ether\n MTBE\n tert-Butyl methyl ether\n tBME\n tert-BuOMe",
+        "OtherNames": "Methyl tertiary-butyl ether\nMethyl tert-butyl ether\nMethyl t-butyl ether\nMTBE\ntert-Butyl methyl ether\ntBME\ntert-BuOMe",
         "ChemSpiderID": "14672",
         "PubChem": "15413",
         "KEGG": "C11344",
@@ -11296,7 +11296,7 @@
         "substance_name": "Aluminium nitrate",
         "url": "https://en.wikipedia.org/wiki/Aluminium+nitrate",
         "IUPACName": "Aluminium nitrate",
-        "OtherNames": "Nitric  Aluminum salt \n aluminum nitrate \n aluminium(III) nitrate",
+        "OtherNames": "Nitric  Aluminum salt \naluminum nitrate \naluminium(III) nitrate",
         "ChemSpiderID": "24267",
         "InChI": "1/Al.3NO3/c;3*2-1(3)4/q+3;3*-1",
         "SMILES": "[Al+3].O=[N+]([O-])[O-].[O-][N+]([O-])=O.[O-][N+]([O-])=O",
@@ -11487,7 +11487,7 @@
         "url": "https://en.wikipedia.org/wiki/Silver+nitrate",
         "Name": "Silver nitrate",
         "IUPACName": "Silver nitrate",
-        "OtherNames": "Nitric acid silver(1+) salt \n Lapis infernalis \n Argentous nitrate",
+        "OtherNames": "Nitric acid silver(1+) salt \nLapis infernalis \nArgentous nitrate",
         "SystematicName": "Silver(I) nitrate",
         "ChemSpiderID": "22878",
         "ChEMBL": "177367",
@@ -11550,7 +11550,7 @@
         "substance_name": "Barium nitrate",
         "url": "https://en.wikipedia.org/wiki/Barium+nitrate",
         "Name": "Barium nitrate",
-        "OtherNames": "Barium dinitrate,\n\nbarium salt",
+        "OtherNames": "Barium dinitrate,\nbarium salt",
         "ChemSpiderID": "23184",
         "InChI": "1/Ba.2NO2/c;2*2-1(3)4/q+2;2*-1",
         "SMILES": "[Ba+2].[O-][N+]([O-])=O.[O-][N+]([O-])=O",
@@ -11997,7 +11997,7 @@
         "LC50": "315 ppm (rabbit, 15 min)854 ppm (rat, 4 h)2500 ppm (mouse, 12 min)",
         "LCLo": "320 ppm (mouse)",
         "OtherFunction_label": "nitrogen oxides",
-        "OtherFunction": "Dinitrogen pentoxide\n\nDinitrogen tetroxide\n\nDinitrogen trioxide\n\nNitrogen dioxide\n\nNitrous oxide\n\nNitroxyl (reduced form)\n\nHydroxylamine (hydrogenated form)"
+        "OtherFunction": "Dinitrogen pentoxide\nDinitrogen tetroxide\nDinitrogen trioxide\nNitrogen dioxide\nNitrous oxide\nNitroxyl (reduced form)\nHydroxylamine (hydrogenated form)"
     },
     {
         "substance_name": "nitrobenzene",
@@ -12097,8 +12097,8 @@
         "LC50": "30ppm (guinea pig, 1 h)315ppm (rabbit, 15 min)68ppm (rat, 4 h)138ppm (rat, 30 min)1000ppm (mouse, 10 min)",
         "LCLo": "64ppm (dog, 8 h)64ppm (monkey, 8 h)",
         "OtherFunction_label": "nitrogen oxides",
-        "OtherFunction": "Dinitrogen pentoxide\n\nDinitrogen tetroxide\n\nDinitrogen trioxide\n\nNitric oxide\n\nNitrous oxide",
-        "OtherCompounds": "Chlorine dioxide \n Carbon dioxide"
+        "OtherFunction": "Dinitrogen pentoxide\nDinitrogen tetroxide\nDinitrogen trioxide\nNitric oxide\nNitrous oxide",
+        "OtherCompounds": "Chlorine dioxide \nCarbon dioxide"
     },
     {
         "substance_name": "nitrous oxide",
@@ -12390,7 +12390,7 @@
         "url": "https://en.wikipedia.org/wiki/ozone",
         "Name": "Ozone",
         "IUPACName": "Ozone",
-        "OtherNames": "2λ^4-trioxidiene\n catena-trioxygen",
+        "OtherNames": "2λ^4-trioxidiene\ncatena-trioxygen",
         "SystematicName": "Trioxygen",
         "IUPHAR_ligand": "6297",
         "CASNo": "10028-15-6",
@@ -12557,7 +12557,7 @@
         "url": "https://en.wikipedia.org/wiki/4-Nitrotoluene",
         "Name": "4-Nitrotoluene",
         "PIN": "1-Methyl-4-nitrobenzene",
-        "OtherNames": "p-nitrotoluene \n p-mononitrotoluene",
+        "OtherNames": "p-nitrotoluene \np-mononitrotoluene",
         "CASNo": "99-99-0",
         "UNII": "E88IMG14EX",
         "PubChem": "7473",
@@ -13930,7 +13930,7 @@
         "substance_name": "potassium perchlorate",
         "url": "https://en.wikipedia.org/wiki/potassium+perchlorate",
         "Name": "Potassium perchlorate",
-        "OtherNames": "Potassium chlorate(VII)\n  Perchloric acid\npotassium salt\n peroidin",
+        "OtherNames": "Potassium chlorate(VII)\n Perchloric acid\npotassium salt\nperoidin",
         "ChemSpiderID": "22913",
         "ChEMBL": "1200696",
         "UNII": "42255P5X4D",
@@ -13981,7 +13981,7 @@
         "url": "https://en.wikipedia.org/wiki/potassium+permanganate",
         "Name": "Potassium permanganate",
         "IUPACName": "Potassium manganate(VII)",
-        "OtherNames": "Potassium permanganate\nChameleon mineral\nCondys crystals\nPermanganate of potash \n Hypermangan",
+        "OtherNames": "Potassium permanganate\nChameleon mineral\nCondys crystals\nPermanganate of potash \nHypermangan",
         "CASNo": "7722-64-7",
         "PubChem": "516875",
         "ChemSpiderID": "22810",
@@ -14301,8 +14301,8 @@
         "IDLH": "N.D.",
         "REL": "TWA 10 ppm (30 mg/m^3) ST 15 ppm (45 mg/m^3)",
         "OtherFunction_label": "Carboxylic acids",
-        "OtherFunction": "Acetic acid\n Lactic acid\n 3-Hydroxypropionic acid\n Tartronic acid\n Acrylic acid\n Butyric acid",
-        "OtherCompounds": "1-Propanol\n Propionaldehyde\n Sodium propionate\n Propionic anhydride"
+        "OtherFunction": "Acetic acid\nLactic acid\n3-Hydroxypropionic acid\nTartronic acid\nAcrylic acid\nButyric acid",
+        "OtherCompounds": "1-Propanol\nPropionaldehyde\nSodium propionate\nPropionic anhydride"
     },
     {
         "substance_name": "propylamine",
@@ -14650,7 +14650,7 @@
         "PPhrases": "",
         "OtherFunction_label": "refrigerants",
         "OtherFunction": "Difluoromethane\nPentafluoroethane",
-        "OtherCompounds": "2-Chloro-\n 1,1,1,2-tetrafluoroethane\n1,1,1-Trichloroethane"
+        "OtherCompounds": "2-Chloro-\n1,1,1,2-tetrafluoroethane\n1,1,1-Trichloroethane"
     },
     {
         "substance_name": "salicylic acid",
@@ -14700,7 +14700,7 @@
         "LambdaMax": "210nm, 234nm, 303nm (4 mg/dL in ethanol)",
         "DeltaHf": "−589.9kJ/mol",
         "DeltaHc": "3.025MJ/mol",
-        "OtherCompounds": "Methyl salicylate,\nBenzoic acid,\nPhenol\nAspirin,\n4-Hydroxybenzoic acid,\n Magnesium salicylate,\nCholine salicylate,\nBismuth subsalicylate,\nSulfosalicylic acid",
+        "OtherCompounds": "Methyl salicylate,\nBenzoic acid,\nPhenol\nAspirin,\n4-Hydroxybenzoic acid,\nMagnesium salicylate,\nCholine salicylate,\nBismuth subsalicylate,\nSulfosalicylic acid",
         "ATCCode_prefix": "A01",
         "ATCCode_suffix": "AD05",
         "ExternalSDS": "MSDS",
@@ -14748,7 +14748,7 @@
         "substance_name": "silicon tetrachloride",
         "url": "https://en.wikipedia.org/wiki/silicon+tetrachloride",
         "IUPACName": "Tetrachlorosilane",
-        "OtherNames": "Silicon tetrachloride \n Tetrachlorosilane",
+        "OtherNames": "Silicon tetrachloride \nTetrachlorosilane",
         "ChemSpiderID": "23201",
         "StdInChI": "1S/Cl4Si/c1-5(2,3)4",
         "StdInChIKey": "FDNAPBUWERUEDA-UHFFFAOYSA-N",
@@ -14940,7 +14940,7 @@
         "LD50": "4090 mg/kg (rat, oral)",
         "OtherAnions": "Sodium bicarbonate",
         "OtherCations": "Lithium carbonate Potassium carbonateRubidium carbonate Caesium carbonate",
-        "OtherCompounds": "Sodium sesquicarbonate\n Sodium percarbonate"
+        "OtherCompounds": "Sodium sesquicarbonate\nSodium percarbonate"
     },
     {
         "substance_name": "Sodium carbonate",
@@ -15013,7 +15013,7 @@
         "LD50": "4090 mg/kg (rat, oral)",
         "OtherAnions": "Sodium bicarbonate",
         "OtherCations": "Lithium carbonate Potassium carbonateRubidium carbonate Caesium carbonate",
-        "OtherCompounds": "Sodium sesquicarbonate\n Sodium percarbonate"
+        "OtherCompounds": "Sodium sesquicarbonate\nSodium percarbonate"
     },
     {
         "substance_name": "sodium",
@@ -15271,7 +15271,7 @@
         "substance_name": "Disodium octaborate tetrahydrate",
         "url": "https://en.wikipedia.org/wiki/Disodium+octaborate+tetrahydrate",
         "Name": "Disodium octaborate tetrahydrate",
-        "OtherNames": "Aquabor /  Boron sodium oxide\n  Sodium octaborate\n Tim-bor insecticide\nPolybor",
+        "OtherNames": "Aquabor /  Boron sodium oxide\n Sodium octaborate\nTim-bor insecticide\nPolybor",
         "CASNo": "12280-03-4",
         "PubChem": "90478478",
         "SMILES": "B(=O)OB1OB2OB(OB(OB(O2)OB(O1)OB=O)[O-])[O-].O.O.O.O.[Na+].[Na+]",
@@ -15793,7 +15793,7 @@
     {
         "substance_name": "sodium hydroxide",
         "url": "https://en.wikipedia.org/wiki/sodium+hydroxide",
-        "OtherNames": "Caustic soda\n\nLye\n\nAscarite\n\nWhite caustic\n\nSodium hydrate",
+        "OtherNames": "Caustic soda\nLye\nAscarite\nWhite caustic\nSodium hydrate",
         "IUPACName": "Sodium hydroxide",
         "CASNo": "1310-73-2",
         "PubChem": "14798",
@@ -16227,7 +16227,7 @@
         "substance_name": "sodium persulfate",
         "url": "https://en.wikipedia.org/wiki/sodium+persulfate",
         "Name": "Sodium persulfate",
-        "OtherNames": "Sodium peroxodisulfate\n Sodium peroxodisulphate\n Sodium peroxydisulfate\n Sodium peroxydisulphate",
+        "OtherNames": "Sodium peroxodisulfate\nSodium peroxodisulphate\nSodium peroxydisulfate\nSodium peroxydisulphate",
         "ChemSpiderID": "56406",
         "ChEMBL": "502764",
         "InChI": "1/2Na.H2O8S2/c;;1-9(2,3)7-8-10(4,5)6/h;;(H,1,2,3)(H,4,5,6)/q2*+1;/p-2",
@@ -16528,14 +16528,14 @@
         "LD50": "160 mg/kg (Oral – Rat)<BR>230 mg/kg (Dermal – Rabbit)",
         "OtherAnions": "Sodium cyanoborohydrideSodium hydrideSodium borateBoraxSodium aluminum hydride",
         "OtherCations": "Lithium borohydride",
-        "OtherCompounds": "Lithium aluminium hydride\n Sodium triacetoxyborohydride"
+        "OtherCompounds": "Lithium aluminium hydride\nSodium triacetoxyborohydride"
     },
     {
         "substance_name": "Calcium carbonate",
         "url": "https://en.wikipedia.org/wiki/Calcium+carbonate",
         "Name": "Calcium carbonate",
         "IUPACName": "Calcium carbonate",
-        "OtherNames": "calcite\n aragonite\n chalk\n Lime (material)\n Limestone\n marble\n oyster\n pearl",
+        "OtherNames": "calcite\naragonite\nchalk\nLime (material)\nLimestone\nmarble\noyster\npearl",
         "UNII": "H0G9379FGK",
         "ChEMBL": "1200539",
         "DrugBank": "DB06724",
@@ -16791,7 +16791,7 @@
         "substance_name": "sulfur dioxide",
         "url": "https://en.wikipedia.org/wiki/sulfur+dioxide",
         "IUPACName": "Sulfur dioxide",
-        "OtherNames": "Sulfurous anhydride\n\nSulfur(IV) oxide",
+        "OtherNames": "Sulfurous anhydride\nSulfur(IV) oxide",
         "CASNo": "7446-09-5",
         "PubChem": "1119",
         "ChemSpiderID": "1087",
@@ -16842,14 +16842,14 @@
         "LCLo": "993 ppm (rat, 20 min)611 ppm (rat, 5 hr)764 ppm (mouse, 20 min)1000 ppm (human, 10 min)3000 ppm (human, 5 min)",
         "OtherFunction_label": "sulfur oxides",
         "OtherFunction": "Sulfur monoxide\nSulfur trioxide",
-        "OtherCompounds": "Ozone\n\nSelenium dioxide\n\nSulfurous acid\n\nTellurium dioxide"
+        "OtherCompounds": "Ozone\nSelenium dioxide\nSulfurous acid\nTellurium dioxide"
     },
     {
         "substance_name": "sulfur hexafluoride",
         "url": "https://en.wikipedia.org/wiki/sulfur+hexafluoride",
         "IUPACName": "Sulfur hexafluoride",
         "SystematicName": "Hexafluoro-λ^6-sulfane",
-        "OtherNames": "Elagas\n\nEsaflon\n\nSulfur(VI) fluoride\n\nSulfuric fluoride",
+        "OtherNames": "Elagas\nEsaflon\nSulfur(VI) fluoride\nSulfuric fluoride",
         "CASNo": "2551-62-4",
         "PubChem": "17358",
         "ChemSpiderID": "16425",
@@ -16897,8 +16897,8 @@
         "PEL": "TWA 1000 ppm (6000 mg/m^3)",
         "REL": "TWA 1000 ppm (6000 mg/m^3)",
         "OtherFunction_label": "sulfur fluorides",
-        "OtherFunction": "Disulfur decafluoride\n\nSulfur tetrafluoride",
-        "OtherCompounds": "Selenium hexafluoride\n\nSulfuryl fluoride\n\nTellurium hexafluoride\nPolonium hexafluoride"
+        "OtherFunction": "Disulfur decafluoride\nSulfur tetrafluoride",
+        "OtherCompounds": "Selenium hexafluoride\nSulfuryl fluoride\nTellurium hexafluoride\nPolonium hexafluoride"
     },
     {
         "substance_name": "sulfur trioxide",
@@ -16960,7 +16960,7 @@
         "substance_name": "sulfuric acid",
         "url": "https://en.wikipedia.org/wiki/sulfuric+acid",
         "IUPACName": "Sulfuric acid",
-        "OtherNames": "Oil of vitriol\n\nHydrogen sulfate",
+        "OtherNames": "Oil of vitriol\nHydrogen sulfate",
         "ChemSpiderID": "1086",
         "UNII": "O40UQP6WCF",
         "KEGG": "D05963",
@@ -17222,7 +17222,7 @@
         "url": "https://en.wikipedia.org/wiki/tetrachloroethylene",
         "Name": "Tetrachloroethylene",
         "PIN": "Tetrachloroethene",
-        "OtherNames": "Perchloroethene\n perchloroethylene\n perc\n PCE",
+        "OtherNames": "Perchloroethene\nperchloroethylene\nperc\nPCE",
         "ChEBI": "17300",
         "SMILES": "ClC(Cl)=C(Cl)Cl",
         "ChemSpiderID": "13837281",
@@ -17269,7 +17269,7 @@
         "substance_name": "tetraethyl orthosilicate",
         "url": "https://en.wikipedia.org/wiki/tetraethyl+orthosilicate",
         "IUPACName": "tetraethoxysilane",
-        "OtherNames": "tetraethyl orthosilicate\n ethyl silicate\n silicic acid tetraethyl ester\n silicon ethoxide\n TEOS\n tetraethyl silicate",
+        "OtherNames": "tetraethyl orthosilicate\nethyl silicate\nsilicic acid tetraethyl ester\nsilicon ethoxide\nTEOS\ntetraethyl silicate",
         "ChemSpiderID": "6270",
         "InChI": "1/C8H20O4Si/c1-5-9-13(10-6-2,11-7-3)12-8-4/h5-8H2,1-4H3",
         "InChIKey": "BOTDANWDWHJENH-UHFFFAOYAS",
@@ -17333,7 +17333,7 @@
         "PPhrases": "",
         "OtherFunction_label": "refrigerants",
         "OtherFunction": "Difluoromethane\nPentafluoroethane",
-        "OtherCompounds": "2-Chloro-\n 1,1,1,2-tetrafluoroethane\n1,1,1-Trichloroethane"
+        "OtherCompounds": "2-Chloro-\n1,1,1,2-tetrafluoroethane\n1,1,1-Trichloroethane"
     },
     {
         "substance_name": "tetrahydrofuran",
@@ -17662,7 +17662,7 @@
         "url": "https://en.wikipedia.org/wiki/Boron+trichloride",
         "Name": "Boron trichloride",
         "IUPACName": "Boron trichloride",
-        "OtherNames": "Boron(III) chloride\n\nTrichloroborane",
+        "OtherNames": "Boron(III) chloride\nTrichloroborane",
         "ChemSpiderID": "23480",
         "InChI": "1/B.3ClH/h;3*1H/q+3;;;/p-3",
         "SMILES": "ClB(Cl)Cl",
@@ -17708,7 +17708,7 @@
         "substance_name": "trichloroethylene",
         "url": "https://en.wikipedia.org/wiki/trichloroethylene",
         "PIN": "1,1,2-Trichloroethene",
-        "OtherNames": "1,1-Dichloro-2-Chloroethylene\n 1-Chloro-2,2-Dichloroethylene\n Acetylene Trichloride\n TCE\n Trethylene\n Triclene\n Trico\n Tri\n Trimar\n Trilene\n HCC-1120",
+        "OtherNames": "1,1-Dichloro-2-Chloroethylene\n1-Chloro-2,2-Dichloroethylene\nAcetylene Trichloride\nTCE\nTrethylene\nTriclene\nTrico\nTri\nTrimar\nTrilene\nHCC-1120",
         "ChemSpiderID": "13837280",
         "ChEMBL": "279816",
         "StdInChI": "1S/C2HCl3/c3-1-2(4)5/h1H",
@@ -18337,7 +18337,7 @@
         "NFPA-R": "0",
         "OtherFunction": "Thiourea\nHydroxycarbamide",
         "OtherFunction_label": "ureas",
-        "OtherCompounds": "Carbamide peroxide\nUrea phosphate \n Acetone \n Carbonic acid \n Carbonyl fluoride"
+        "OtherCompounds": "Carbamide peroxide\nUrea phosphate \nAcetone \nCarbonic acid \nCarbonyl fluoride"
     },
     {
         "substance_name": "ammonium nitrate",
@@ -18663,7 +18663,7 @@
         "url": "https://en.wikipedia.org/wiki/bisphenol+A",
         "Name": "Bisphenol A",
         "PIN": "4,4′-(Propane-2,2-diyl)diphenol",
-        "OtherNames": "BPA\np,p-Isopropylidenebisphenol,\n 2,2-Bis(4-hydroxyphenyl)propane",
+        "OtherNames": "BPA\np,p-Isopropylidenebisphenol,\n2,2-Bis(4-hydroxyphenyl)propane",
         "IUPHAR_ligand": "7865",
         "ChEBI": "33216",
         "DrugBank": "DB06973",
@@ -18896,8 +18896,8 @@
         "REL": "TWA 6 mg/m^3 (amorphous)Ca TWA 0.05 mg/m^3",
         "PEL": "TWA 20 mppcf (80 mg/m^3/%SiO2) (amorphous)",
         "OtherFunction_label": "diones",
-        "OtherFunction": "Carbon dioxide\n\nGermanium dioxide\n\nTin dioxide\n\nLead dioxide",
-        "OtherCompounds": "Silicon monoxide\n\nSilicon sulfide",
+        "OtherFunction": "Carbon dioxide\nGermanium dioxide\nTin dioxide\nLead dioxide",
+        "OtherCompounds": "Silicon monoxide\nSilicon sulfide",
         "DeltaHf": "−911 kJ·mol^−1",
         "Entropy": "42 J·mol^−1·K^−1"
     },
@@ -18905,7 +18905,7 @@
         "substance_name": "ethylene-vinyl acetate",
         "url": "https://en.wikipedia.org/wiki/ethylene-vinyl+acetate",
         "Name": "ethylene-vinyl acetate",
-        "OtherNames": "Poly(ethylene-vinyl acetate)\n Poly(ethylene-co-vinyl acetate)\n Polyethylene-vinyl acetate copolymer",
+        "OtherNames": "Poly(ethylene-vinyl acetate)\nPoly(ethylene-co-vinyl acetate)\nPolyethylene-vinyl acetate copolymer",
         "Abbreviations": "EVA; PEVA",
         "ChemSpiderID": "none",
         "UNII": "4OKC630HS6",
@@ -18942,7 +18942,7 @@
         "MagSus": "-84.64·10^−6 cm^3/mol",
         "EUClass": "Not listed",
         "OtherFunction_label": "carboxylic acids",
-        "OtherFunction": "Benzoic acid\nPhthalic acid (ortho) \nTerephthalic acid (para) \n Trimesic acid"
+        "OtherFunction": "Benzoic acid\nPhthalic acid (ortho) \nTerephthalic acid (para) \nTrimesic acid"
     },
     {
         "substance_name": "methyl methacrylate",
@@ -19239,7 +19239,7 @@
         "url": "https://en.wikipedia.org/wiki/polypropylene",
         "Name": "Polypropylene (PP)",
         "IUPACName": "Poly(1-methylethylene)\n\nP",
-        "OtherNames": "Polypropylene\n Polypropene\n\nPolipropene 25 [USAN]\n Propene polymers\n\nPropylene polymers\n 1-Propene\n [-Ch2-Ch(Ch3)-]n",
+        "OtherNames": "Polypropylene\nPolypropene\nPolipropene 25 [USAN]\nPropene polymers\nPropylene polymers\n1-Propene\n[-Ch2-Ch(Ch3)-]n",
         "CASNo": "9003-07-0",
         "ChemSpiderID": "None",
         "Formula": "(C3H6)n",
@@ -19323,7 +19323,7 @@
         "url": "https://en.wikipedia.org/wiki/Polyvinylidene+fluoride",
         "Name": "Polyvinylidene fluoride",
         "IUPACName": "Poly(1,1-difluoroethylene)",
-        "OtherNames": "Polyvinylidene difluoride\n poly(vinylene fluoride)\n Kynar\n Hylar\n Solef\n Sygef\n poly(1,1-difluoroethane)",
+        "OtherNames": "Polyvinylidene difluoride\npoly(vinylene fluoride)\nKynar\nHylar\nSolef\nSygef\npoly(1,1-difluoroethane)",
         "CASNo": "24937-79-9",
         "PubChem": "6369",
         "MeSHName": "polyvinylidene+fluoride",
@@ -19340,7 +19340,7 @@
         "url": "https://en.wikipedia.org/wiki/Polyvinylidene+fluoride",
         "Name": "Polyvinylidene fluoride",
         "IUPACName": "Poly(1,1-difluoroethylene)",
-        "OtherNames": "Polyvinylidene difluoride\n poly(vinylene fluoride)\n Kynar\n Hylar\n Solef\n Sygef\n poly(1,1-difluoroethane)",
+        "OtherNames": "Polyvinylidene difluoride\npoly(vinylene fluoride)\nKynar\nHylar\nSolef\nSygef\npoly(1,1-difluoroethane)",
         "CASNo": "24937-79-9",
         "PubChem": "6369",
         "MeSHName": "polyvinylidene+fluoride",
@@ -19357,7 +19357,7 @@
         "url": "https://en.wikipedia.org/wiki/Polyvinylidene+fluoride",
         "Name": "Polyvinylidene fluoride",
         "IUPACName": "Poly(1,1-difluoroethylene)",
-        "OtherNames": "Polyvinylidene difluoride\n poly(vinylene fluoride)\n Kynar\n Hylar\n Solef\n Sygef\n poly(1,1-difluoroethane)",
+        "OtherNames": "Polyvinylidene difluoride\npoly(vinylene fluoride)\nKynar\nHylar\nSolef\nSygef\npoly(1,1-difluoroethane)",
         "CASNo": "24937-79-9",
         "PubChem": "6369",
         "MeSHName": "polyvinylidene+fluoride",
@@ -19384,7 +19384,7 @@
         "url": "https://en.wikipedia.org/wiki/Terephthalic+acid",
         "Name": "Terephthalic acid",
         "PIN": "Benzene-1,4-dicarboxylic acid",
-        "OtherNames": "1,4-Benzenedioic acid\nBenzene-1,4-dioic acid\nTerephthalic acid\npara-Phthalic acid\nTPA\nPTA\n BDC",
+        "OtherNames": "1,4-Benzenedioic acid\nBenzene-1,4-dioic acid\nTerephthalic acid\npara-Phthalic acid\nTPA\nPTA\nBDC",
         "ChEBI": "15702",
         "SMILES": "O=C(O)c1ccc(C(O)=O)cc1",
         "ChemSpiderID": "7208",
@@ -19421,8 +19421,8 @@
         "HPhrases": "",
         "PPhrases": "",
         "OtherFunction_label": "carboxylic acids",
-        "OtherFunction": "Phthalic acid\n Isophthalic acid\n Benzoic acid\n p-Toluic acid",
-        "OtherCompounds": "p-Xylene\n Polyethylene terephthalate\n Dimethyl terephthalate"
+        "OtherFunction": "Phthalic acid\nIsophthalic acid\nBenzoic acid\np-Toluic acid",
+        "OtherCompounds": "p-Xylene\nPolyethylene terephthalate\nDimethyl terephthalate"
     },
     {
         "substance_name": "Polyethylene",
@@ -19487,7 +19487,7 @@
         "REL": "TWA 50 ppm (215 mg/m^3) ST 100 ppm (425 mg/m^3)",
         "LCLo": "10,000 ppm (human, 30 min)2771 ppm (rat, 4 h)",
         "OtherFunction_label": "styrenes;related aromatic compounds",
-        "OtherFunction": "polystyrene\nstilbene\n\nethylbenzene"
+        "OtherFunction": "polystyrene\nstilbene\nethylbenzene"
     },
     {
         "substance_name": "Styrene-acrylonitrile resin",
@@ -19789,7 +19789,7 @@
         "substance_name": "pentane",
         "url": "https://en.wikipedia.org/wiki/pentane",
         "PIN": "Pentane",
-        "OtherNames": "Quintane\n Refrigerant-4-13-0",
+        "OtherNames": "Quintane\nRefrigerant-4-13-0",
         "CASNo": "109-66-0",
         "PubChem": "8003",
         "ChemSpiderID": "7712",
@@ -19882,7 +19882,7 @@
         "RPhrases": "12",
         "SPhrases": "9-16-33",
         "OtherFunction_label": "alkenes;related groups",
-        "OtherFunction": "Ethylene\nIsomers of Butylene\n\nAllyl\nPropenyl",
+        "OtherFunction": "Ethylene\nIsomers of Butylene\nAllyl\nPropenyl",
         "OtherCompounds": "Propane\nPropyne\nPropadiene\n1-Propanol\n2-Propanol"
     },
     {
@@ -19890,7 +19890,7 @@
         "url": "https://en.wikipedia.org/wiki/benzene",
         "Name": "Benzene",
         "PIN": "Benzene",
-        "OtherNames": "Benzol (historic/German)\nCyclohexa-1,3,5-triene\n 1,3,5-Cyclohexatriene\n[6]Annulene (not recommended)",
+        "OtherNames": "Benzol (historic/German)\nCyclohexa-1,3,5-triene\n1,3,5-Cyclohexatriene\n[6]Annulene (not recommended)",
         "CASNo": "71-43-2",
         "PubChem": "241",
         "ChemSpiderID": "236",
@@ -19948,7 +19948,7 @@
         "IDLH": "500 ppm",
         "MainHazards": "potential occupational carcinogen, flammable",
         "LCLo": "44,000 ppm (rabbit, 30 min)44,923 ppm (dog)52,308 ppm (cat)20,000 ppm (human, 5 min)",
-        "OtherCompounds": "Toluene\n Borazine"
+        "OtherCompounds": "Toluene\nBorazine"
     },
     {
         "substance_name": "ethylene",

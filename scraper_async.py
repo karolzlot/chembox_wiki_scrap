@@ -318,6 +318,8 @@ def parse_wiki_template(t):
                 '<br>':'\n',
                 ";":"\n",
                 ', ':'\n',
+                '\n ':'\n',
+                '\n\n':'\n',
             }
             item_value = replace_all(item_value,replace_dict)
             
