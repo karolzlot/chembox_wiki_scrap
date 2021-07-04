@@ -3,7 +3,7 @@
 This scraper downloads wikipedia pages, extract information from chembox templates and saves it to JSON, XML and XLSX files. 
 
 Scraper has following features:
-- async requests with httpx (only async version)
+- async requests with httpx (only `scraper_async.py` version)
 - caching wikipedia responses
 - handling wikipedia redirections
 - handling wikipedia wikitext formatting
